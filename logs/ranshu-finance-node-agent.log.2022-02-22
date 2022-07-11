@@ -1,0 +1,275 @@
+2022-02-22 09:59:12,330 INFO 95450 [egg-logrotator] agent logger reload: got log-reload message
+2022-02-22 10:13:47,013 ERROR 95450 nodejs.ClusterClientNoResponseError: client no response in 234414ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 95450
+hostname: rs-front-01.local
+
+2022-02-22 10:49:30,034 ERROR 95450 nodejs.ClusterClientNoResponseError: client no response in 1302005ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 95450
+hostname: rs-front-01.local
+
+2022-02-22 13:53:51,029 INFO 24939 [egg:logger] init all loggers with options: {"dir":"/Users/rs-front-01/Documents/Projects/ranshu-finance-node/logs/","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ranshu-finance-node.log","coreLogName":"ranshu-finance-node-core.log","agentLogName":"ranshu-finance-node-agent.log","errorLogName":"ranshu-finance-node.err","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2022-02-22 13:53:51,375 INFO 24939 [egg-redis] server connecting redis://:***@172.19.228.122:6379/2
+2022-02-22 13:53:51,533 INFO 24939 [egg:core] dump config after load, 156ms
+2022-02-22 13:53:51,769 INFO 24939 [egg-watcher] Start watching: ["/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/app","/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/config","/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/mocks","/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/mocks_proxy","/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/app.js"]
+2022-02-22 13:53:51,769 INFO 24939 [egg-watcher] Start watching: "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/app"
+2022-02-22 13:53:51,769 INFO 24939 [egg-watcher] Start watching: "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/config"
+2022-02-22 13:53:51,769 INFO 24939 [egg-watcher] Start watching: "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/mocks"
+2022-02-22 13:53:51,769 INFO 24939 [egg-watcher] Start watching: "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/mocks_proxy"
+2022-02-22 13:53:51,770 INFO 24939 [egg-watcher] Start watching: "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/app.js"
+2022-02-22 13:53:51,770 INFO 24939 [egg-watcher:agent] watcher start success
+2022-02-22 13:53:51,782 INFO 24939 [egg-redis] client connect success
+2022-02-22 13:53:51,800 INFO 24939 [egg-redis] instance[0] status OK, client ready
+2022-02-22 13:53:52,068 INFO 24939 [egg:core] dump config after ready, 264ms
+2022-02-22 14:24:48,015 ERROR 24939 nodejs.ClusterClientNoResponseError: client no response in 89349ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 24939
+hostname: rs-front-01.local
+
+2022-02-22 14:54:17,015 ERROR 24939 nodejs.ClusterClientNoResponseError: client no response in 988362ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 24939
+hostname: rs-front-01.local
+
+2022-02-22 16:33:23,911 INFO 43951 [egg:logger] init all loggers with options: {"dir":"/Users/rs-front-01/Documents/Projects/ranshu-finance-node/logs/","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ranshu-finance-node.log","coreLogName":"ranshu-finance-node-core.log","agentLogName":"ranshu-finance-node-agent.log","errorLogName":"ranshu-finance-node.err","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2022-02-22 16:33:23,984 INFO 43951 [egg-redis] server connecting redis://:***@172.19.228.122:6379/2
+2022-02-22 16:33:24,188 INFO 43951 [egg:core] dump config after load, 199ms
+2022-02-22 16:33:24,311 INFO 43951 [egg-watcher] Start watching: ["/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/app","/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/config","/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/mocks","/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/mocks_proxy","/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/app.js"]
+2022-02-22 16:33:24,311 INFO 43951 [egg-watcher] Start watching: "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/app"
+2022-02-22 16:33:24,312 INFO 43951 [egg-watcher] Start watching: "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/config"
+2022-02-22 16:33:24,312 INFO 43951 [egg-watcher] Start watching: "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/mocks"
+2022-02-22 16:33:24,312 INFO 43951 [egg-watcher] Start watching: "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/mocks_proxy"
+2022-02-22 16:33:24,312 INFO 43951 [egg-watcher] Start watching: "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/app.js"
+2022-02-22 16:33:24,312 INFO 43951 [egg-watcher:agent] watcher start success
+2022-02-22 16:33:24,318 INFO 43951 [egg-redis] client connect success
+2022-02-22 16:33:24,336 INFO 43951 [egg-redis] instance[0] status OK, client ready
+2022-02-22 16:33:24,353 INFO 43951 [egg:core] dump config after ready, 15ms
+2022-02-22 19:15:58,017 ERROR 43951 nodejs.ClusterClientNoResponseError: client no response in 1384179ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 43951
+hostname: rs-front-01.local
+
+2022-02-22 20:00:55,011 ERROR 43951 nodejs.ClusterClientNoResponseError: client no response in 369980ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 43951
+hostname: rs-front-01.local
+
+2022-02-22 20:04:37,005 ERROR 43951 nodejs.ClusterClientNoResponseError: client no response in 181623ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 43951
+hostname: rs-front-01.local
+
+2022-02-22 20:08:36,010 ERROR 43951 nodejs.ClusterClientNoResponseError: client no response in 198965ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 43951
+hostname: rs-front-01.local
+
+2022-02-22 20:16:09,006 ERROR 43951 nodejs.ClusterClientNoResponseError: client no response in 413128ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 43951
+hostname: rs-front-01.local
+
+2022-02-22 20:22:39,008 ERROR 43951 nodejs.ClusterClientNoResponseError: client no response in 149598ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 43951
+hostname: rs-front-01.local
+
+2022-02-22 20:24:38,005 ERROR 43951 nodejs.ClusterClientNoResponseError: client no response in 77256ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 43951
+hostname: rs-front-01.local
+
+2022-02-22 20:26:53,007 ERROR 43951 nodejs.ClusterClientNoResponseError: client no response in 95218ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 43951
+hostname: rs-front-01.local
+
+2022-02-22 20:51:03,007 ERROR 43951 nodejs.ClusterClientNoResponseError: client no response in 69803ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 43951
+hostname: rs-front-01.local
+
+2022-02-22 20:56:05,011 ERROR 43951 nodejs.ClusterClientNoResponseError: client no response in 261181ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 43951
+hostname: rs-front-01.local
+
+2022-02-22 20:59:46,006 ERROR 43951 nodejs.ClusterClientNoResponseError: client no response in 181014ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 43951
+hostname: rs-front-01.local
+
+2022-02-22 21:03:36,009 ERROR 43951 nodejs.ClusterClientNoResponseError: client no response in 189986ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 43951
+hostname: rs-front-01.local
+
+2022-02-22 21:18:08,005 ERROR 43951 nodejs.ClusterClientNoResponseError: client no response in 831837ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 43951
+hostname: rs-front-01.local
+
+2022-02-22 21:22:50,005 ERROR 43951 nodejs.ClusterClientNoResponseError: client no response in 242017ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 43951
+hostname: rs-front-01.local
+
+2022-02-22 21:26:38,009 ERROR 43951 nodejs.ClusterClientNoResponseError: client no response in 188043ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 43951
+hostname: rs-front-01.local
+
+2022-02-22 21:30:50,004 ERROR 43951 nodejs.ClusterClientNoResponseError: client no response in 211988ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 43951
+hostname: rs-front-01.local
+
+2022-02-22 21:35:09,011 ERROR 43951 nodejs.ClusterClientNoResponseError: client no response in 218981ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 43951
+hostname: rs-front-01.local
+
+2022-02-22 21:48:12,004 ERROR 43951 nodejs.ClusterClientNoResponseError: client no response in 742985ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 43951
+hostname: rs-front-01.local
+
+2022-02-22 21:53:23,010 ERROR 43951 nodejs.ClusterClientNoResponseError: client no response in 270983ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 43951
+hostname: rs-front-01.local
+
+2022-02-22 21:56:23,006 ERROR 43951 nodejs.ClusterClientNoResponseError: client no response in 139912ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 43951
+hostname: rs-front-01.local
+
+2022-02-22 22:02:43,005 ERROR 43951 nodejs.ClusterClientNoResponseError: client no response in 339983ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 43951
+hostname: rs-front-01.local
+
+2022-02-22 22:07:55,004 ERROR 43951 nodejs.ClusterClientNoResponseError: client no response in 271985ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 43951
+hostname: rs-front-01.local
+
+2022-02-22 22:11:25,005 ERROR 43951 nodejs.ClusterClientNoResponseError: client no response in 169988ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 43951
+hostname: rs-front-01.local
+
+2022-02-22 22:14:44,004 ERROR 43951 nodejs.ClusterClientNoResponseError: client no response in 158976ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 43951
+hostname: rs-front-01.local
+
+2022-02-22 22:18:45,004 ERROR 43951 nodejs.ClusterClientNoResponseError: client no response in 200981ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 43951
+hostname: rs-front-01.local
+
+2022-02-22 22:21:57,005 ERROR 43951 nodejs.ClusterClientNoResponseError: client no response in 79981ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 43951
+hostname: rs-front-01.local
+
+2022-02-23 09:54:38,026 ERROR 43951 nodejs.ClusterClientNoResponseError: client no response in 41520984ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 43951
+hostname: rs-front-01.local
+

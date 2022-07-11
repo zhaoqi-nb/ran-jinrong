@@ -1,0 +1,119 @@
+.research-viewpoint-detail {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  .research-viewpoint-detail-wrap {
+    width: 1152px;
+    display: flex;
+    height: calc(100vh - 88px);
+    padding: 16px 73px;
+    overflow: auto;
+  }
+  &-left {
+    flex: 1;
+    .header {
+      display: flex;
+      align-items: center;
+      .title {
+        font-size: 20px;
+        font-weight: 500;
+        color: #262626;
+        line-height: 32px;
+      }
+      .tag {
+        width: 36px;
+        height: 18px;
+        background: rgba(226, 73, 47, 0.1);
+        border-radius: 2px;
+        font-size: 12px;
+        font-weight: 400;
+        color: #E2492F;
+        line-height: 18px;
+        text-align: center;
+        margin-left: 8px;
+      }
+     
+    }
+    .center {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 8px 0;
+      border-bottom: 1px solid #E1E8F0;
+      .time {
+        font-size: 12px;
+        font-weight: 400;
+        color: #595959;
+        line-height: 18px;
+      }
+      .oprator {
+        display: flex;
+        align-items: center;
+        .ant-btn > .anticon + span, .ant-btn > span + .anticon {
+          margin: 0;
+        }
+        >button {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          padding: 3px 8px;
+          height: 24px;
+          &:last-child {
+            margin-left: 8px;
+          }
+        }
+        .no-collect-btn {
+          border: 1px solid #BFBFBF;
+        }
+      }
+    } 
+    .content {
+      margin-top: 20px;
+      font-size: 16px;
+      font-weight: 400;
+      color: #262626;
+      line-height: 28px;
+      .bf-container .public-DraftEditor-content {
+        padding: 0;
+      }
+    }
+  }
+  &-right {
+    width: 312px;
+    margin-left: 48px;
+    .header {
+      font-size: 16px;
+      font-weight: 500;
+      color: #333333;
+      line-height: 24px;
+    }
+    .list {
+      .item {
+        padding: 12px 0;
+        border-bottom: 1px solid #E1E8F0;;
+        >span {
+          display: block;
+        }
+        .title {
+          font-size: 13px;
+          font-weight: 500;
+          color: #373737;
+          line-height: 20px;
+          cursor: pointer;
+          &:hover {
+             color: #0678FF;
+            }
+        }
+        .time {
+          margin-top: 8px;
+          font-size: 12px;
+          font-weight: 400;
+          color: #8C8C8C;
+          line-height: 18px;
+        }
+      }
+    }
+  }
+
+}
+

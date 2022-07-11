@@ -1,0 +1,134 @@
+[{
+    "title": "所属一级行业",
+    "isMultiple": false,
+    "key": "1",
+    "type": "cascader",
+    "showAll": true,
+    "children": [{
+        "label": "美妆个护",
+        "value": "100001",
+        "level": 1
+      },
+      {
+        "label": "家用电器",
+        "value": "100002",
+        "level": 1
+      },
+      {
+        "label": "食品饮料",
+        "value": "100003",
+        "level": 1
+      },
+      {
+        "label": "3C数码",
+        "value": "100004",
+        "level": 1
+      },
+      {
+        "label": "纺织服装",
+        "value": "100005",
+        "level": 1
+      },
+      {
+        "label": "轻工制造",
+        "value": "100006",
+        "level": 1
+      },
+      {
+        "label": "医药保健",
+        "value": "100007",
+        "level": 1
+      },
+      {
+        "label": "家具家装",
+        "value": "100008",
+        "level": 1
+      },
+      {
+        "label": "其他行业",
+        "value": "100009",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "title": "所属二级行业",
+    "isMultiple": false,
+    "key": "2",
+    "type": "cascader",
+    "showAll": true,
+    "children": [{
+        "label": "香水彩妆",
+        "value": "200001",
+        "parentId": "100001",
+        "level": 2
+      },
+      {
+        "label": "美妆工具",
+        "value": "200002",
+        "parentId": "100001",
+        "level": 2
+      },
+      {
+        "label": "面部护肤",
+        "value": "200003",
+        "parentId": "100001",
+        "level": 2
+      },
+      {
+        "label": "身体护理",
+        "value": "200004",
+        "parentId": "100001",
+        "level": 2
+      },
+      {
+        "label": "洗发护发",
+        "value": "200005",
+        "parentId": "100001",
+        "level": 2
+      },
+      {
+        "label": "个护电器",
+        "value": "200026",
+        "parentId": "100002",
+        "level": 2
+      },
+      {
+        "label": "生活电器",
+        "value": "200027",
+        "parentId": "100002",
+        "level": 2
+      },
+      {
+        "label": "方便食品",
+        "value": "200032",
+        "parentId": "100003",
+        "level": 2
+      },
+      {
+        "label": "生鲜",
+        "value": "200035",
+        "parentId": "100003",
+        "level": 2
+      },
+      {
+        "label": "休闲食品",
+        "value": "200036",
+        "parentId": "100003",
+        "level": 2
+      },
+      {
+        "label": "饮料冲调",
+        "value": "200038",
+        "parentId": "100003",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "title": "范围筛选",
+    "type": "range",
+    "key": "3",
+    "showFilterResult": true
+  }
+]

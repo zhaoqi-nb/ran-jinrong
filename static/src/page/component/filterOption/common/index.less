@@ -1,0 +1,50 @@
+@import '~@less/color.less';
+
+.custom-filterOption {
+    display: flex;
+
+    .filter-title {
+        flex: 0 0 auto;
+        display: flex;
+        font-size: 12px;
+        align-items: flex-start;
+        color: #8c8c8c ;
+        margin-right: 8px;
+        .filter-title-span{
+            line-height: 24px;
+            &:after{
+                content: "：";
+            }
+        }
+       
+    }
+
+    .filter-list {
+        flex: 1;
+        margin-bottom: 0;
+
+        li {
+            padding: 3px 8px;
+            margin: 0 8px 0 0;
+            font-size: 12px;
+            text-align: center;
+            display: inline-block;
+            cursor: pointer;
+            border-radius: 2px;
+            color: #262626; //#595959; 
+        }
+
+        li.active {
+            background: #E6F1FF;
+            font-weight: 400;
+            color: #0678FF;
+
+
+        }
+
+        li.disabled {
+            color: #aaaaaa;
+            cursor: not-allowed;
+        }
+    }
+}

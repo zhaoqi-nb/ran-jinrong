@@ -1,0 +1,32 @@
+// Radio buttons
+// .ant-radio-group-solid .ant-radio-button-wrapper:not(.ant-radio-button-wrapper-disabled) {
+//   color: #8C8C8C;
+// }
+.ant-radio-group-solid .ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled) {
+  background: #E6F1FF !important;
+  color: #0678FF;
+  font-weight: 500;
+}
+
+.ant-radio-button-wrapper:hover {
+  color: #0678FF
+}
+
+
+.ant-radio-group-solid .ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled):hover {
+  background: #E6F1FF;
+}
+
+.ant-radio-button-wrapper-checked:not([class*=' ant-radio-button-wrapper-disabled']).ant-radio-button-wrapper:first-child {
+  border-right-color: #E6F1FF;
+}
+
+.ant-radio-group-solid .ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled):hover {
+  background: #E6F1FF;
+  color: #0678FF;
+  border-color: #E6F1FF;
+}
+
+.ant-radio-group-solid .ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled):focus-within {
+  box-shadow: 0 0 0 3px transparent !important;
+}

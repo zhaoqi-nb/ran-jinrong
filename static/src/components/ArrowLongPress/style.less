@@ -1,0 +1,19 @@
+.arrow-btn {
+  display: flex;
+  align-items: center;
+  &-default {
+    color: #595959;
+    &:hover {
+      color: #0678FF
+    }
+    &:active {
+      color: #3893FF;
+    }
+  }
+  &[disabled] {
+    color: #BFBFBF;
+    > .arrow {
+      cursor: not-allowed !important;
+    }
+  }
+}

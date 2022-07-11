@@ -1,0 +1,35 @@
+@import '~@less/color.less';
+
+.ant-radio-group.ant-radio-group-solid {
+    position: relative;
+    padding: 0 !important;
+    // border: 1px solid @black-4;
+    border-radius: 4px !important;
+    background: transparent !important;
+    margin-right: 4px !important;
+
+    &::after {
+        position: absolute;
+        display: block;
+        content: '';
+        width: 100%;
+        height: 100%;
+        border: 1px solid #CED9E7;
+        top: 0;
+        left: 0;
+        border-radius: 4px;
+        background: @white-base;
+        z-index: -1;
+    }
+}
+
+
+.custom-date {
+    .ant-radio-button-wrapper {
+        font-size: 12px;
+    }
+
+    .select-content {
+        margin-left: 0 !important;
+    }
+}

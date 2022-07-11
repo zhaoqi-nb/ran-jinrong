@@ -1,0 +1,102 @@
+// Buttons
+.ant-btn {
+  border-radius: 4px;
+  padding: 6px 12px;
+  font-size: 12px;
+  height: 32px;
+}
+
+.ant-btn-sm {
+  height: 24px;
+  padding: 2px 12px;
+  border-radius: 2px;
+}
+
+// .ant-btn>.anticon+span,
+// .ant-btn>span+.anticon {
+//   margin-left: 0;
+// }
+
+@btn-font-weight: 400;
+
+@btn-default-color: #0678FF;
+@btn-default-bg: #FFFFFF;
+@btn-default-border: #0678FF;
+
+.ant-btn,
+.ant-btn-default {
+  &:hover {
+    color: #3893FF;
+    border-color: #3893FF;
+  }
+
+  &[disabled],
+  &[disabled]:hover {
+    color: #B4D6FF;
+    border-color: #B4D6FF;
+    background-color: #FFFFFF;
+  }
+}
+
+.ant-btn:hover,
+.ant-btn:focus,
+.ant-btn:active {
+  color: #3893FF;
+  border-color: #3893FF;
+  background-color: #FFFFFF;
+}
+
+.ant-btn-link {
+  color: @btn-default-color;
+  background-color: transparent;
+  border: 0;
+
+  &:hover {
+    color: #3893FF;
+    background-color: transparent;
+  }
+
+  &[disabled],
+  &[disabled]:hover {
+    color: #B4D6FF;
+    background-color: transparent;
+  }
+}
+
+.ant-btn-link :hover,
+.ant-btn-link :focus,
+.ant-btn-link :active {
+  color: @btn-default-color;
+  background-color: transparent;
+  border: 0;
+}
+
+
+.ant-btn-primary {
+  color: #FFFFFF;
+  border-color: #0678FF;
+  background-color: #0678FF;
+  text-shadow: none;
+  box-shadow: none;
+
+  &:hover {
+    color: #FFFFFF;
+    border-color: #3893FF;
+    background-color: #3893FF;
+  }
+
+  &[disabled],
+  &[disabled]:hover {
+    color: #FFFFFF;
+    background-color: #B4D6FF;
+    background-color: #B4D6FF;
+  }
+}
+
+.ant-btn-primary:hover,
+.ant-btn-primary:focus,
+.ant-btn-primary:active {
+  color: #FFFFFF;
+  border-color: #3893FF;
+  background-color: #3893FF;
+}

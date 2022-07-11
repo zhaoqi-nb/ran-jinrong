@@ -1,0 +1,396 @@
+{
+  "env": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/config.default.js",
+  "name": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/config.default.js",
+  "systemCode": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/config.default.js",
+  "systemVersion": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/config.default.js",
+  "cookieKey": {
+    "userToken": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/config.default.js",
+    "userBehavior": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/config.default.js"
+  },
+  "API_URL": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/config.default.js",
+  "baseDir": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/config.default.js",
+  "uploadDir": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/config.default.js",
+  "keys": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/config.default.js",
+  "maxAge": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/config.default.js",
+  "view": {
+    "root": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/config.default.js",
+    "cache": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-view/config/config.local.js",
+    "mapping": {
+      ".nj": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/config.default.js",
+      ".xml": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/config.default.js"
+    },
+    "defaultViewEngine": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/config.default.js",
+    "defaultExtension": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/config.default.js"
+  },
+  "cluster": {
+    "listen": {
+      "port": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/config.default.js",
+      "path": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js"
+    }
+  },
+  "httpclient": {
+    "request": {
+      "timeout": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/config.default.js"
+    },
+    "httpAgent": {
+      "timeout": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/config.default.js",
+      "keepAlive": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js"
+    },
+    "enableDNSCache": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js",
+    "httpsAgent": {
+      "keepAlive": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js"
+    }
+  },
+  "redis": {
+    "client": {
+      "port": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/config.default.js",
+      "host": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/config.local.js",
+      "password": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/config.default.js",
+      "db": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/config.default.js"
+    },
+    "agent": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/config.default.js",
+    "expire": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/config.default.js",
+    "default": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-redis/config/config.default.js",
+    "app": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-redis/config/config.default.js",
+    "supportTimeCommand": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-redis/config/config.default.js"
+  },
+  "security": {
+    "xframe": {
+      "enable": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/config.default.js",
+      "value": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-security/config/config.default.js"
+    },
+    "csrf": {
+      "enable": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/config.default.js",
+      "headerName": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/config.default.js",
+      "type": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-security/config/config.default.js",
+      "useSession": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-security/config/config.default.js",
+      "refererWhiteList": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-security/config/config.default.js"
+    },
+    "domainWhiteList": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-security/config/config.default.js",
+    "hsts": {
+      "enable": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-security/config/config.default.js",
+      "ipExceptionList": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "logger": {
+    "level": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/config.default.js",
+    "consoleLevel": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/config.default.js",
+    "appLogName": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/config.default.js",
+    "coreLogName": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/config.default.js",
+    "agentLogName": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/config.default.js",
+    "errorLogName": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/config.default.js",
+    "dir": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/config.local.js",
+    "encoding": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js",
+    "env": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js",
+    "enablePerformanceTimer": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js"
+  },
+  "logrotator": {
+    "maxDays": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/config.default.js",
+    "filesRotateByHour": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/config.default.js",
+    "dir": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/config.default.js",
+    "gzip": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/config.default.js",
+    "dynamic": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/config.default.js",
+    "preload": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/config.default.js",
+    "buffer": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/config.default.js",
+    "maxAge": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/config.default.js",
+    "maxFiles": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/config.default.js"
+  },
+  "middleware": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/config.default.js",
+  "recordLog": {
+    "enable": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/config.default.js",
+    "ignore": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/config.default.js",
+    "encoding": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/config.default.js",
+    "formLimit": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/config.default.js",
+    "jsonLimit": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/config.default.js",
+    "strict": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/config.default.js",
+      "depth": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/config.default.js",
+      "parameterLimit": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/config.default.js"
+    },
+    "enableTypes": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/config.default.js",
+    "extendTypes": {
+      "text": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/config.default.js"
+    },
+    "textLimit": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js",
+    "onerror": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js"
+  },
+  "onerror": {
+    "all": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/config.default.js",
+    "errorPageUrl": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-onerror/config/config.default.js"
+  },
+  "API_DOMAIN": {
+    "API_URL": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/config.local.js",
+    "PERMISSIONS_URL": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/config.local.js",
+    "LOGIN_API_URL": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/config.local.js",
+    "TEMPLATE_API_URL": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/config.local.js"
+  },
+  "cors": {
+    "credentials": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/config.local.js",
+    "allowMethods": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/config.local.js"
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "file": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/config.local.js",
+      "consoleLevel": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "fixedData": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/config.local.js",
+  "session": {
+    "maxAge": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-session/config/config.default.js",
+    "logValue": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-session/config/config.default.js"
+  },
+  "helper": {
+    "shtml": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-i18n/config/config.default.js",
+    "cookieDomain": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-schedule/config/config.default.js"
+  },
+  "multipart": {
+    "mode": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-multipart/config/config.default.js",
+    "autoFields": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-multipart/config/config.default.js",
+    "allowArrayField": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-multipart/config/config.default.js",
+      "disable": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-multipart/config/config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-development/config/config.default.js",
+    "overrideIgnore": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-development/config/config.default.js"
+  },
+  "nunjucks": {
+    "autoescape": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-view-nunjucks/config/config.default.js",
+    "throwOnUndefined": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-view-nunjucks/config/config.default.js",
+    "trimBlocks": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-view-nunjucks/config/config.default.js",
+    "lstripBlocks": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-view-nunjucks/config/config.default.js",
+    "cache": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-view-nunjucks/config/config.local.js"
+  },
+  "cookies": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js",
+  "maxIpsCount": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js",
+  "maxProxyCount": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js",
+    "version": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js",
+    "description": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js",
+    "main": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js",
+    "scripts": {
+      "local:static": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js",
+      "local:server": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js",
+      "test": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js",
+      "beta": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js",
+      "prod": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js",
+      "stop": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js"
+    },
+    "repository": {
+      "type": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js",
+      "url": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js"
+    },
+    "keywords": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js",
+    "author": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js",
+    "license": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js",
+    "dependencies": {
+      "@babel/core": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js",
+      "@babel/plugin-transform-runtime": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js",
+      "@babel/polyfill": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js",
+      "@babel/preset-env": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js",
+      "@babel/preset-react": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js",
+      "@babel/preset-stage-0": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js",
+      "@babel/runtime": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js",
+      "antd": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js",
+      "babel-loader": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js",
+      "babel-plugin-import": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js",
+      "babel-plugin-transform-runtime": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js",
+      "babel-runtime": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js",
+      "clean-webpack-plugin": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js",
+      "core-js": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js",
+      "css-loader": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js",
+      "echarts": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js",
+      "egg": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js",
+      "egg-cors": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js",
+      "egg-logrotator": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js",
+      "egg-redis": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js",
+      "egg-scripts": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js",
+      "egg-static": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js",
+      "egg-view-nunjucks": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js",
+      "exceljs": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js",
+      "file-loader": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js",
+      "file-saver": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js",
+      "get-folder-size": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js",
+      "html-webpack-exclude-assets-plugin": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js",
+      "html-webpack-plugin": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js",
+      "html-withimg-loader": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js",
+      "ignore-loader": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js",
+      "intro.js": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js",
+      "js-base64": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js",
+      "js-cookie": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js",
+      "js-md5": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js",
+      "less-loader": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js",
+      "lodash": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js",
+      "mini-css-extract-plugin": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js",
+      "numeral": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js",
+      "os": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js",
+      "perf_hooks": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js",
+      "react": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js",
+      "react-dom": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js",
+      "react-lazyload": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js",
+      "react-loadable": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js",
+      "react-router-dom": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js",
+      "reqwest": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js",
+      "style-loader": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js",
+      "thread-loader": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js",
+      "ua-parser-js": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js",
+      "uglify-es": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js",
+      "uglifyjs-webpack-plugin": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js",
+      "url-loader": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js",
+      "uuid": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js",
+      "validator": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js",
+      "webpack": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js",
+      "webpack-bundle-analyzer": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js",
+      "webpack-cli": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js",
+      "webpack-md5-hash": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js",
+      "webpack-merge": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js",
+      "webpack-node-externals": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "egg-bin": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js",
+      "webpack-dev-server": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js"
+    }
+  },
+  "HOME": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js"
+  },
+  "meta": {
+    "enable": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js",
+    "logging": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js",
+  "serverTimeout": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js",
+  "clusterClient": {
+    "maxWaitTime": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg/config/config.default.js"
+}

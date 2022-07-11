@@ -1,0 +1,74 @@
+.select-btn-none {
+    color: #B4D6FF !important;
+    border-color: #B4D6FF !important;
+    cursor: not-allowed;
+}
+
+.uiSearchModal {
+    position: relative;
+    z-index: 10;
+    width: 236px;
+    height: 312px;
+    background: #FFFFFF;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    border: 1px solid #E1E8F0;
+
+    .inputbox {
+        padding: 8px 12px;
+        margin: 0;
+
+        // .ant-input-affix-wrapper {
+        //     width: 192px;
+        //     height: 32px;
+        //     background: #F5F7FA;
+        //     border-radius: 4px;
+        //     // border: none;
+        //     // outline: none;
+        //     input{
+        //         // border: none ;
+        //         // outline: none ;
+        //         background: #F5F7FA ;
+        //     }
+        // }
+    }
+
+    ul {
+        // overflow-y: auto;
+        overflow: hidden auto;
+        height: 261px;
+
+        li {
+            display: flex;
+            align-items: center;
+            padding-left: 12px;
+            padding-right: 12px;
+            text-align: left;
+            min-height: 32px;
+            padding-top: 2px;
+            padding-bottom: 2px;
+            line-height: 20px;
+            cursor: pointer;
+            font-size: 12px;
+            color: #262626;
+            
+        }
+
+        li.active {
+            color: #0678FF;
+        }
+
+        li:hover,
+        li.active-hover {
+            background-color: #F0F7FF;
+        }
+    }
+
+    .selected {
+        font-family: PingFangSC-Medium, PingFang SC;
+        font-weight: 500;
+        color: #0678FF;
+    }
+
+}

@@ -1,0 +1,43 @@
+.table-expand {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1px 4px 0 0;
+  color: #8c8c8c;
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.3s;
+  position: relative;
+  display: inline-flex;
+  float: left;
+  box-sizing: border-box;
+  width: 17px;
+  height: 17px;
+  padding: 0;
+  line-height: 17px;
+  background: transparent;
+  border: none;
+  border-radius: 2px;
+  outline: none;
+  transform: scale(0.82352941);
+  transition: all 0.3s;
+  user-select: none;
+
+  > .table-expand-icon {
+    font-size: 12px;
+  }
+  &-icon{
+    color: #8C8C8C;
+    pointer-events: none;
+  }
+  &:hover{
+    .table-expand-icon{
+      color: #0678FF;
+    }
+  }
+  &:active{
+    .table-expand-icon{
+      color: #3893FF;
+    }
+  }
+}

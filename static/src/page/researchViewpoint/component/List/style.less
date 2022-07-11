@@ -1,0 +1,112 @@
+.list-wrap {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  
+  .list-header {
+    display: grid;
+    grid-template-columns: 1fr 200px;
+    padding: 0 14px;
+    font-size: 12px;
+    color: #2B2B2B;
+    line-height: 40px;
+    background: #F5F7FA;
+    border-radius: 8px 8px 0px 0px;
+    >span:last-child{
+      text-align: center;
+    }
+  }
+  .list-inner {
+    min-height: 300px;
+    overflow: auto;
+    .list-item {
+      display: grid;
+      grid-template-columns: 1fr 200px;
+      align-items: center;
+      padding: 16px 14px;
+       position: relative;
+      .item-left {
+        padding-right: 80px;
+        .header {
+          display: flex;
+          align-items: center;
+          cursor: pointer;
+           .title {
+            font-size: 16px;
+            font-weight: 500;
+            color: #262626;
+            line-height: 24px;
+            cursor: pointer;
+            &:hover {
+             color: #0678FF;
+            }
+          }
+          .tag {
+            width: 36px;
+            height: 18px;
+            background: rgba(226, 73, 47, 0.1);
+            border-radius: 2px;
+            font-size: 12px;
+            font-weight: 400;
+            color: #E2492F;
+            line-height: 18px;
+            text-align: center;
+            margin-left: 8px;
+          }
+          .unread {
+            position: absolute;
+            left: 4px;
+            top: 25px;
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            background: #E2492F;
+          }
+        }
+        .content {
+          margin-top: 8px;
+          font-size: 12px;
+          font-weight: 400;
+          color: #595959;
+          line-height: 18px
+        }
+        .time {
+          margin-top: 8px;
+          font-size: 12px;
+          font-weight: 400;
+          color: #8C8C8C;
+          line-height: 18px;
+        }
+      }
+      .item-oprator {
+        display: flex;
+        align-items: center;
+        .ant-btn > .anticon + span, .ant-btn > span + .anticon {
+          margin: 0;
+        }
+        >button {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 92px;
+          height: 32px;
+          margin: 0 4px;
+        }
+        .no-collect-btn {
+          border: 1px solid #BFBFBF;
+        }
+      }
+
+      &:not(:first-child) {
+        border-top: 1px solid #E1E8F0;
+      }
+    }
+  }
+
+  .list-empty-inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #BFBFBF;
+  }
+}

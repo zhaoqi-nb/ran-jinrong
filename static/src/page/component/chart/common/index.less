@@ -1,0 +1,99 @@
+@import '~@less/color.less';
+
+.chart-common-wrap {
+    position: relative;
+    margin: 10px 0 0 0;
+
+    .chart-wrapper {
+        margin-right: 28px;
+    }
+
+    .chart-pie-wrapper {
+        margin-right: 0;
+    }
+
+    .chart-tools-wrap {
+        // position: absolute;
+        // right: 0;
+        // top: 30px;
+        font-size: 16px;
+        width: 24px;
+        height: 24px;
+        background-color: @black-5;
+        border-radius: 4px;
+        text-align: center;
+        line-height: 24px;
+    }
+
+    .chart-tools-wrap.changeType-wraps {
+        // top: 58px;
+        // height: 72px;
+        // line-height: 48px;
+        display: flex;
+        flex-direction: column;
+        // align-items: center;
+        // justify-content: center;
+        margin-bottom: 10px;
+
+        .changeType-item {
+            height: 24px;
+            line-height: 24px;
+        }
+    }
+}
+
+.chartContent {
+    overflow: hidden;
+    border-radius: 8px;
+    border: 1px solid @black-4;
+}
+
+.chart-title {
+    text-align: center;
+    font-size: 13px;
+    color: #262626;
+    font-weight: 500;
+}
+
+.tilishaixuan-icon,
+.changeType-icon {
+    color: #595959;
+    transition: all .3s;
+    cursor: pointer;
+}
+
+.chart-tools-wrap:hover {
+
+    .tilishaixuan-icon,
+    .changeType-icon {
+        color: @blue-1  !important;
+    }
+}
+
+
+.changeType-icon.selected-icon {
+    color: @blue-1;
+}
+
+.popover-config {
+    .ant-popover-inner-content {
+        max-height: 232px;
+        overflow: auto
+    }
+}
+
+.downIcon-wrap {
+    width: 24px;
+    height: 24px;
+    background-color: @black-5;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 24px;
+    font-size: 16px;
+
+    &:hover {
+        .anticon {
+            color: #3893FF !important
+        }
+    }
+}

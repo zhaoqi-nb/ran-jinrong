@@ -1,0 +1,27 @@
+.global-search-wrapper {
+  >.header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 32px;
+    .line {
+      display: inline-block;
+      width: 160px;
+      height: 2px;
+      &.left {
+        background: linear-gradient(270deg, #0454B3 0%, #FFFFFF 100%);
+        opacity: 0.16;
+      }
+      &.right {
+        background: linear-gradient(270deg, #FFFFFF 0%, #0454B3 100%);
+        opacity: 0.16;
+      }
+    }
+    .title {
+      font-size: 30px;
+      font-weight: 600;
+      color: #262626;
+      line-height: 42px;
+      margin: 0 16px;
+    }
+  }
+}

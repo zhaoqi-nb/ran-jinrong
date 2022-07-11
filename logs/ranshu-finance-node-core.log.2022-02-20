@@ -1,0 +1,28 @@
+2022-02-20 00:00:03,430 INFO 96393 [egg-logrotator] app logger reload: got log-reload message
+2022-02-20 00:17:46,012 WARN 96393 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-02-20 00:17:46,012 WARN 96393 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-02-20 00:28:17,006 WARN 96393 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-02-20 00:28:17,006 WARN 96393 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-02-20 00:33:40,007 WARN 96393 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-02-20 00:33:40,010 WARN 96393 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-02-20 00:41:21,009 WARN 96393 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-02-20 00:41:21,010 WARN 96393 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-02-20 01:22:26,007 WARN 96393 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-02-20 01:22:26,007 WARN 96393 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-02-20 06:10:24,011 WARN 96393 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-02-20 06:10:24,011 WARN 96393 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-02-20 06:10:24,019 INFO 96393 [-/127.0.0.1/-/0ms SCHEDULE /__schedule?path=/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&disable=false&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "/var/folders/1c/rlxxjm8j72b3d5bv108hct740000gn/T/egg-multipart-tmp/ranshu-finance-node"
+2022-02-20 06:10:24,028 INFO 96393 [-/127.0.0.1/-/9ms SCHEDULE /__schedule?path=/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&disable=false&immediate=false] [egg-multipart:CleanTmpdir] end
+2022-02-20 10:15:16,007 WARN 96393 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-02-20 10:15:16,007 WARN 96393 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-02-20 14:43:24,008 WARN 96393 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-02-20 14:43:24,009 WARN 96393 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-02-20 15:45:00,007 WARN 96393 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-02-20 15:45:00,011 WARN 96393 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-02-21 09:54:37,010 WARN 96393 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-02-21 09:54:37,011 WARN 96393 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-02-21 09:54:37,025 INFO 96393 [-/127.0.0.1/-/0ms SCHEDULE /__schedule?path=/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&disable=false&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "/var/folders/1c/rlxxjm8j72b3d5bv108hct740000gn/T/egg-multipart-tmp/ranshu-finance-node"
+2022-02-21 09:54:37,033 INFO 96393 [-/127.0.0.1/-/8ms SCHEDULE /__schedule?path=/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&disable=false&immediate=false] [egg-multipart:CleanTmpdir] end
+2022-02-21 09:54:37,113 INFO 96393 [egg-logrotator] clean all log before 10 days
+2022-02-21 09:54:37,121 INFO 96393 [egg-logrotator] broadcast log-reload
+2022-02-21 09:54:37,121 INFO 96393 [egg-logrotator] rotate files success by DayRotator, files ["/Users/rs-front-01/Documents/Projects/ranshu-finance-node/logs/ranshu-finance-node.err -> /Users/rs-front-01/Documents/Projects/ranshu-finance-node/logs/ranshu-finance-node.err.2022-02-20","/Users/rs-front-01/Documents/Projects/ranshu-finance-node/logs/ranshu-finance-node.log -> /Users/rs-front-01/Documents/Projects/ranshu-finance-node/logs/ranshu-finance-node.log.2022-02-20","/Users/rs-front-01/Documents/Projects/ranshu-finance-node/logs/ranshu-finance-node-core.log -> /Users/rs-front-01/Documents/Projects/ranshu-finance-node/logs/ranshu-finance-node-core.log.2022-02-20","/Users/rs-front-01/Documents/Projects/ranshu-finance-node/logs/egg-schedule.log -> /Users/rs-front-01/Documents/Projects/ranshu-finance-node/logs/egg-schedule.log.2022-02-20","/Users/rs-front-01/Documents/Projects/ranshu-finance-node/logs/ranshu-finance-node-agent.log -> /Users/rs-front-01/Documents/Projects/ranshu-finance-node/logs/ranshu-finance-node-agent.log.2022-02-20"]

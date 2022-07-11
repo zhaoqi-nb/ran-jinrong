@@ -1,0 +1,50 @@
+@import '~@less/color.less';
+@import '~@less/base.less';
+
+.loop-wrap {
+
+    padding-bottom: 8px;
+
+    .chart-common-wrap:last-child {
+        margin-right: 0 !important;
+    }
+
+    .ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled) {
+        color: @white-base;
+    }
+
+    .loop-layout {
+        display: flex;
+        align-items: center;
+        // .ant-radio-button-wrapper {}
+    }
+
+    .chart-layout-wrap {
+        // position: absolute;
+        // right: 0;
+        // top: 30px;
+        font-size: 16px;
+        width: 52px;
+        height: 24px;
+        // background-color: @black-5;
+        border-radius: 4px;
+        text-align: center;
+        line-height: 24px;
+        display: flex;
+
+        .chart-layout {
+            flex: 1 0 24px;
+            cursor: pointer;
+
+            &:last-child {
+                margin-left: 4px;
+            }
+
+            &:hover {
+                border-radius: 4px;
+                background: #F5F7FA;
+                color: #0678FF;
+            }
+        }
+    }
+}

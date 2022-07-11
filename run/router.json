@@ -1,0 +1,510 @@
+[
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/",
+    "regexp": "/^(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [
+      {
+        "name": "path",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      }
+    ],
+    "path": "/page/:path",
+    "regexp": "/^\\/page\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
+    "stack": [
+      "verifyPath",
+      "verifyLogin",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [
+      {
+        "name": "path",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      }
+    ],
+    "path": "/page/config/:path",
+    "regexp": "/^\\/page\\/config\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
+    "stack": [
+      "verifyPath",
+      "verifyLogin",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [
+      {
+        "name": "resId",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      },
+      {
+        "name": "path",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      }
+    ],
+    "path": "/page/config/:resId/:path",
+    "regexp": "/^\\/page\\/config\\/((?:[^\\/]+?))\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
+    "stack": [
+      "verifyPath",
+      "verifyLogin",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [
+      {
+        "name": "code",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      }
+    ],
+    "path": "/page/error/:code",
+    "regexp": "/^\\/page\\/error\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/api/common/getTimeRange",
+    "regexp": "/^\\/api\\/common\\/getTimeRange(?:\\/(?=$))?$/",
+    "stack": [
+      "verifyLogin",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/api/config/getTemplateInfo",
+    "regexp": "/^\\/api\\/config\\/getTemplateInfo(?:\\/(?=$))?$/",
+    "stack": [
+      "verifyLogin",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/userbehavior/addAttention",
+    "regexp": "/^\\/api\\/userbehavior\\/addAttention(?:\\/(?=$))?$/",
+    "stack": [
+      "verifyLogin",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/userbehavior/delUserAttention",
+    "regexp": "/^\\/api\\/userbehavior\\/delUserAttention(?:\\/(?=$))?$/",
+    "stack": [
+      "verifyLogin",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/api/userbehavior/getUserAttention",
+    "regexp": "/^\\/api\\/userbehavior\\/getUserAttention(?:\\/(?=$))?$/",
+    "stack": [
+      "verifyLogin",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/api/limitOperation/queryMenuByResId",
+    "regexp": "/^\\/api\\/limitOperation\\/queryMenuByResId(?:\\/(?=$))?$/",
+    "stack": [
+      "verifyLogin",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/api/limitOperation/getConfigData",
+    "regexp": "/^\\/api\\/limitOperation\\/getConfigData(?:\\/(?=$))?$/",
+    "stack": [
+      "verifyLogin",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/limitOperation/setConfigData",
+    "regexp": "/^\\/api\\/limitOperation\\/setConfigData(?:\\/(?=$))?$/",
+    "stack": [
+      "verifyLogin",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/commonOperate/downloadOperation",
+    "regexp": "/^\\/api\\/commonOperate\\/downloadOperation(?:\\/(?=$))?$/",
+    "stack": [
+      "verifyLogin",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/userbehavior/setLanguage",
+    "regexp": "/^\\/api\\/userbehavior\\/setLanguage(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/api/commonOperate/getEnglishDict",
+    "regexp": "/^\\/api\\/commonOperate\\/getEnglishDict(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/api/commonOperate/refreshLanguageCache",
+    "regexp": "/^\\/api\\/commonOperate\\/refreshLanguageCache(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/api/usertemplate/getTemplateBehavior",
+    "regexp": "/^\\/api\\/usertemplate\\/getTemplateBehavior(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/usertemplate/saveTemplateBehavior",
+    "regexp": "/^\\/api\\/usertemplate\\/saveTemplateBehavior(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/usertemplate/delTemplateBehavior",
+    "regexp": "/^\\/api\\/usertemplate\\/delTemplateBehavior(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/api/usertemplate/notFoundEnglish",
+    "regexp": "/^\\/api\\/usertemplate\\/notFoundEnglish(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/api/common/queryResDtoListByAttr",
+    "regexp": "/^\\/api\\/common\\/queryResDtoListByAttr(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/api/common/queryIndustryDtoListByAttr",
+    "regexp": "/^\\/api\\/common\\/queryIndustryDtoListByAttr(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [
+      {
+        "name": 0,
+        "prefix": null,
+        "delimiter": null,
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": null
+      }
+    ],
+    "path": {
+      "keys": [
+        {
+          "name": 0,
+          "prefix": null,
+          "delimiter": null,
+          "optional": false,
+          "repeat": false,
+          "partial": false,
+          "asterisk": false,
+          "pattern": null
+        }
+      ]
+    },
+    "regexp": "/^\\/api\\/commonTemplateBusinessApi\\/([\\w\\/]+)$/",
+    "stack": [
+      "verifyLogin",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/templateOperation/getTemplateList",
+    "regexp": "/^\\/api\\/templateOperation\\/getTemplateList(?:\\/(?=$))?$/",
+    "stack": [
+      "verifyLogin",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/templateOperation/addTemplate",
+    "regexp": "/^\\/api\\/templateOperation\\/addTemplate(?:\\/(?=$))?$/",
+    "stack": [
+      "verifyLogin",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/templateOperation/upTemplateInfo",
+    "regexp": "/^\\/api\\/templateOperation\\/upTemplateInfo(?:\\/(?=$))?$/",
+    "stack": [
+      "verifyLogin",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/api/config/component/chart",
+    "regexp": "/^\\/api\\/config\\/component\\/chart(?:\\/(?=$))?$/",
+    "stack": [
+      "verifyLogin",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/api/config/getQueryTableData",
+    "regexp": "/^\\/api\\/config\\/getQueryTableData(?:\\/(?=$))?$/",
+    "stack": [
+      "verifyLogin",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/api/config/getLoopIndustryTableData",
+    "regexp": "/^\\/api\\/config\\/getLoopIndustryTableData(?:\\/(?=$))?$/",
+    "stack": [
+      "verifyLogin",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/api/config/common/templateData",
+    "regexp": "/^\\/api\\/config\\/common\\/templateData(?:\\/(?=$))?$/",
+    "stack": [
+      "verifyLogin",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/api/zb/getSelectedZbInfo",
+    "regexp": "/^\\/api\\/zb\\/getSelectedZbInfo(?:\\/(?=$))?$/",
+    "stack": [
+      "verifyLogin",
+      "wrappedController"
+    ]
+  }
+]

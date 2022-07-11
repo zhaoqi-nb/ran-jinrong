@@ -1,0 +1,97 @@
+2022-02-21 10:00:00,011 ERROR 96389 nodejs.ClusterClientNoResponseError: client no response in 286662ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 96389
+hostname: rs-front-01.local
+
+2022-02-21 16:31:36,006 ERROR 53575 nodejs.ClusterClientNoResponseError: client no response in 1687025ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 53575
+hostname: rs-front-01.local
+
+2022-02-21 19:06:48,524 ERROR 83412 [-/127.0.0.1/-/31ms GET /page/config/432] -------------------------
+2022-02-21 19:06:48,524 ERROR 83412 [-/127.0.0.1/-/31ms GET /page/config/432] 异常报错 - 获取模版信息出错 --- TypeError: Cannot read properties of null (reading 'list')
+2022-02-21 19:06:48,524 ERROR 83412 [-/127.0.0.1/-/31ms GET /page/config/432] -------------------------
+2022-02-21 19:41:30,995 ERROR 83412 [-/127.0.0.1/-/25ms GET /api/config/getLoopIndustryTableData?instantiationId=450&params=%7B%22date_type%22%3A%22month%22%2C%22start_date%22%3A%22201801%22%2C%22end_date%22%3A%22202202%22%2C%22stock_code%22%3A%22000650.SZ%22%2C%22content_name%22%3A%22sales_amount%22%2C%22language%22%3A%22zh_CN%22%7D&headerMapping=%7B%22other%22%3A%7B%22type%22%3A%22date%22%2C%22columnStyle%22%3A%7B%22width%22%3A130%2C%22align%22%3A%22center%22%7D%7D%2C%22title%22%3A%7B%22type%22%3A%22string%22%2C%22columnStyle%22%3A%7B%22width%22%3A220%2C%22fixed%22%3A%22left%22%2C%22align%22%3A%22left%22%7D%7D%7D] -------------------------
+2022-02-21 19:41:30,996 ERROR 83412 [-/127.0.0.1/-/26ms GET /api/config/getLoopIndustryTableData?instantiationId=450&params=%7B%22date_type%22%3A%22month%22%2C%22start_date%22%3A%22201801%22%2C%22end_date%22%3A%22202202%22%2C%22stock_code%22%3A%22000650.SZ%22%2C%22content_name%22%3A%22sales_amount%22%2C%22language%22%3A%22zh_CN%22%7D&headerMapping=%7B%22other%22%3A%7B%22type%22%3A%22date%22%2C%22columnStyle%22%3A%7B%22width%22%3A130%2C%22align%22%3A%22center%22%7D%7D%2C%22title%22%3A%7B%22type%22%3A%22string%22%2C%22columnStyle%22%3A%7B%22width%22%3A220%2C%22fixed%22%3A%22left%22%2C%22align%22%3A%22left%22%7D%7D%7D] 异常报错 - 查询配置化表格查询数据出错 --- TypeError: Cannot read properties of null (reading 'result')
+2022-02-21 19:41:31,000 ERROR 83412 [-/127.0.0.1/-/30ms GET /api/config/getLoopIndustryTableData?instantiationId=450&params=%7B%22date_type%22%3A%22month%22%2C%22start_date%22%3A%22201801%22%2C%22end_date%22%3A%22202202%22%2C%22stock_code%22%3A%22000650.SZ%22%2C%22content_name%22%3A%22sales_amount%22%2C%22language%22%3A%22zh_CN%22%7D&headerMapping=%7B%22other%22%3A%7B%22type%22%3A%22date%22%2C%22columnStyle%22%3A%7B%22width%22%3A130%2C%22align%22%3A%22center%22%7D%7D%2C%22title%22%3A%7B%22type%22%3A%22string%22%2C%22columnStyle%22%3A%7B%22width%22%3A220%2C%22fixed%22%3A%22left%22%2C%22align%22%3A%22left%22%7D%7D%7D] -------------------------
+2022-02-21 19:41:31,348 ERROR 83412 [-/127.0.0.1/-/27ms GET /api/config/getLoopIndustryTableData?instantiationId=450&params=%7B%22date_type%22%3A%22month%22%2C%22start_date%22%3A%22201801%22%2C%22end_date%22%3A%22202202%22%2C%22stock_code%22%3A%22000650.SZ%22%2C%22content_name%22%3A%22sales_amount%22%2C%22language%22%3A%22zh_CN%22%7D&headerMapping=%7B%22other%22%3A%7B%22type%22%3A%22date%22%2C%22columnStyle%22%3A%7B%22width%22%3A130%2C%22align%22%3A%22center%22%7D%7D%2C%22title%22%3A%7B%22type%22%3A%22string%22%2C%22columnStyle%22%3A%7B%22width%22%3A220%2C%22fixed%22%3A%22left%22%2C%22align%22%3A%22left%22%7D%7D%7D] -------------------------
+2022-02-21 19:41:31,348 ERROR 83412 [-/127.0.0.1/-/27ms GET /api/config/getLoopIndustryTableData?instantiationId=450&params=%7B%22date_type%22%3A%22month%22%2C%22start_date%22%3A%22201801%22%2C%22end_date%22%3A%22202202%22%2C%22stock_code%22%3A%22000650.SZ%22%2C%22content_name%22%3A%22sales_amount%22%2C%22language%22%3A%22zh_CN%22%7D&headerMapping=%7B%22other%22%3A%7B%22type%22%3A%22date%22%2C%22columnStyle%22%3A%7B%22width%22%3A130%2C%22align%22%3A%22center%22%7D%7D%2C%22title%22%3A%7B%22type%22%3A%22string%22%2C%22columnStyle%22%3A%7B%22width%22%3A220%2C%22fixed%22%3A%22left%22%2C%22align%22%3A%22left%22%7D%7D%7D] 异常报错 - 查询配置化表格查询数据出错 --- TypeError: Cannot read properties of null (reading 'result')
+2022-02-21 19:41:31,348 ERROR 83412 [-/127.0.0.1/-/27ms GET /api/config/getLoopIndustryTableData?instantiationId=450&params=%7B%22date_type%22%3A%22month%22%2C%22start_date%22%3A%22201801%22%2C%22end_date%22%3A%22202202%22%2C%22stock_code%22%3A%22000650.SZ%22%2C%22content_name%22%3A%22sales_amount%22%2C%22language%22%3A%22zh_CN%22%7D&headerMapping=%7B%22other%22%3A%7B%22type%22%3A%22date%22%2C%22columnStyle%22%3A%7B%22width%22%3A130%2C%22align%22%3A%22center%22%7D%7D%2C%22title%22%3A%7B%22type%22%3A%22string%22%2C%22columnStyle%22%3A%7B%22width%22%3A220%2C%22fixed%22%3A%22left%22%2C%22align%22%3A%22left%22%7D%7D%7D] -------------------------
+2022-02-21 19:41:31,376 ERROR 83412 [-/127.0.0.1/-/25ms GET /api/config/getLoopIndustryTableData?instantiationId=450&params=%7B%22date_type%22%3A%22month%22%2C%22start_date%22%3A%22201801%22%2C%22end_date%22%3A%22202202%22%2C%22stock_code%22%3A%22000650.SZ%22%2C%22content_name%22%3A%22sales_amount%22%2C%22language%22%3A%22zh_CN%22%7D&headerMapping=%7B%22other%22%3A%7B%22type%22%3A%22date%22%2C%22columnStyle%22%3A%7B%22width%22%3A130%2C%22align%22%3A%22center%22%7D%7D%2C%22title%22%3A%7B%22type%22%3A%22string%22%2C%22columnStyle%22%3A%7B%22width%22%3A220%2C%22fixed%22%3A%22left%22%2C%22align%22%3A%22left%22%7D%7D%7D] -------------------------
+2022-02-21 19:41:31,376 ERROR 83412 [-/127.0.0.1/-/25ms GET /api/config/getLoopIndustryTableData?instantiationId=450&params=%7B%22date_type%22%3A%22month%22%2C%22start_date%22%3A%22201801%22%2C%22end_date%22%3A%22202202%22%2C%22stock_code%22%3A%22000650.SZ%22%2C%22content_name%22%3A%22sales_amount%22%2C%22language%22%3A%22zh_CN%22%7D&headerMapping=%7B%22other%22%3A%7B%22type%22%3A%22date%22%2C%22columnStyle%22%3A%7B%22width%22%3A130%2C%22align%22%3A%22center%22%7D%7D%2C%22title%22%3A%7B%22type%22%3A%22string%22%2C%22columnStyle%22%3A%7B%22width%22%3A220%2C%22fixed%22%3A%22left%22%2C%22align%22%3A%22left%22%7D%7D%7D] 异常报错 - 查询配置化表格查询数据出错 --- TypeError: Cannot read properties of null (reading 'result')
+2022-02-21 19:41:31,377 ERROR 83412 [-/127.0.0.1/-/26ms GET /api/config/getLoopIndustryTableData?instantiationId=450&params=%7B%22date_type%22%3A%22month%22%2C%22start_date%22%3A%22201801%22%2C%22end_date%22%3A%22202202%22%2C%22stock_code%22%3A%22000650.SZ%22%2C%22content_name%22%3A%22sales_amount%22%2C%22language%22%3A%22zh_CN%22%7D&headerMapping=%7B%22other%22%3A%7B%22type%22%3A%22date%22%2C%22columnStyle%22%3A%7B%22width%22%3A130%2C%22align%22%3A%22center%22%7D%7D%2C%22title%22%3A%7B%22type%22%3A%22string%22%2C%22columnStyle%22%3A%7B%22width%22%3A220%2C%22fixed%22%3A%22left%22%2C%22align%22%3A%22left%22%7D%7D%7D] -------------------------
+2022-02-21 19:42:26,864 ERROR 83412 [-/127.0.0.1/-/16ms GET /page/config/9779/443] api 调用失败：url = /usertemplate/getUserTemplateList, param = rootInstantiationId=443&language=zh_CN
+2022-02-21 19:42:26,865 ERROR 83412 [-/127.0.0.1/-/17ms GET /page/config/9779/443] -------------------------
+2022-02-21 19:42:26,865 ERROR 83412 [-/127.0.0.1/-/17ms GET /page/config/9779/443] 异常报错 - 访问带参数的定制化页面 方法 browseFilterPath 出错 --- TypeError: Cannot read properties of null (reading 'data')
+2022-02-21 19:42:26,865 ERROR 83412 [-/127.0.0.1/-/17ms GET /page/config/9779/443] -------------------------
+2022-02-21 20:06:30,016 ERROR 83411 nodejs.ClusterClientNoResponseError: client no response in 522441ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 83411
+hostname: rs-front-01.local
+
+2022-02-21 20:06:46,593 ERROR 83411 [egg-redis] client error: Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:220:20) {
+  errno: -54,
+  code: 'ECONNRESET',
+  syscall: 'read'
+}
+2022-02-21 20:06:46,593 ERROR 83411 nodejs.ECONNRESETError: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:220:20)
+errno: -54
+code: "ECONNRESET"
+syscall: "read"
+name: "ECONNRESETError"
+pid: 83411
+hostname: rs-front-01.local
+
+2022-02-21 20:06:52,225 ERROR 83412 [egg-redis] client error: Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:220:20) {
+  errno: -54,
+  code: 'ECONNRESET',
+  syscall: 'read'
+}
+2022-02-21 20:06:52,226 ERROR 83412 nodejs.ECONNRESETError: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:220:20)
+errno: -54
+code: "ECONNRESET"
+syscall: "read"
+name: "ECONNRESETError"
+pid: 83412
+hostname: rs-front-01.local
+
+2022-02-21 20:22:25,000 ERROR 83412 [-/127.0.0.1/-/14ms GET /api/config/getLoopIndustryTableData?instantiationId=450&params=%7B%22date_type%22%3A%22month%22%2C%22start_date%22%3A%22201801%22%2C%22end_date%22%3A%22202202%22%2C%22stock_code%22%3A%22000650.SZ%22%2C%22content_name%22%3A%22sales_amount%22%2C%22language%22%3A%22zh_CN%22%7D&headerMapping=%7B%22other%22%3A%7B%22type%22%3A%22date%22%2C%22columnStyle%22%3A%7B%22width%22%3A130%2C%22align%22%3A%22center%22%7D%7D%2C%22title%22%3A%7B%22type%22%3A%22string%22%2C%22columnStyle%22%3A%7B%22width%22%3A220%2C%22fixed%22%3A%22left%22%2C%22align%22%3A%22left%22%7D%7D%7D] api 调用失败：url = /dataApi/1.0/query, param = instantiationId=450&params={"date_type":"month","start_date":"201801","end_date":"202202","stock_code":"000650.SZ","content_name":"sales_amount","language":"zh_CN"}
+2022-02-21 20:22:25,055 ERROR 83412 [-/127.0.0.1/-/36ms GET /api/config/getLoopIndustryTableData?instantiationId=450&params=%7B%22date_type%22%3A%22month%22%2C%22start_date%22%3A%22201801%22%2C%22end_date%22%3A%22202202%22%2C%22stock_code%22%3A%22000650.SZ%22%2C%22content_name%22%3A%22sales_count%22%2C%22language%22%3A%22zh_CN%22%7D&headerMapping=%7B%22other%22%3A%7B%22type%22%3A%22date%22%2C%22columnStyle%22%3A%7B%22width%22%3A130%2C%22align%22%3A%22center%22%7D%7D%2C%22title%22%3A%7B%22type%22%3A%22string%22%2C%22columnStyle%22%3A%7B%22width%22%3A220%2C%22fixed%22%3A%22left%22%2C%22align%22%3A%22left%22%7D%7D%7D] api 调用失败：url = /dataApi/1.0/query, param = instantiationId=450&params={"date_type":"month","start_date":"201801","end_date":"202202","stock_code":"000650.SZ","content_name":"sales_count","language":"zh_CN"}
+2022-02-21 20:22:25,091 ERROR 83412 [-/127.0.0.1/-/14ms GET /api/config/getLoopIndustryTableData?instantiationId=450&params=%7B%22date_type%22%3A%22month%22%2C%22start_date%22%3A%22201801%22%2C%22end_date%22%3A%22202202%22%2C%22stock_code%22%3A%22000650.SZ%22%2C%22content_name%22%3A%22avg_goods_price%22%2C%22language%22%3A%22zh_CN%22%7D&headerMapping=%7B%22other%22%3A%7B%22type%22%3A%22date%22%2C%22columnStyle%22%3A%7B%22width%22%3A130%2C%22align%22%3A%22center%22%7D%7D%2C%22title%22%3A%7B%22type%22%3A%22string%22%2C%22columnStyle%22%3A%7B%22width%22%3A220%2C%22fixed%22%3A%22left%22%2C%22align%22%3A%22left%22%7D%7D%7D] api 调用失败：url = /dataApi/1.0/query, param = instantiationId=450&params={"date_type":"month","start_date":"201801","end_date":"202202","stock_code":"000650.SZ","content_name":"avg_goods_price","language":"zh_CN"}
+2022-02-21 22:22:54,007 ERROR 95450 nodejs.ClusterClientNoResponseError: client no response in 1892167ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 95450
+hostname: rs-front-01.local
+
+2022-02-21 23:10:04,005 ERROR 95450 nodejs.ClusterClientNoResponseError: client no response in 2610112ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 95450
+hostname: rs-front-01.local
+
+2022-02-22 09:59:12,022 ERROR 95450 nodejs.ClusterClientNoResponseError: client no response in 38908207ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 95450
+hostname: rs-front-01.local
+

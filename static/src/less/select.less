@@ -1,0 +1,92 @@
+//select
+@select-item-selected-color: #007DFF; //@blue-base;
+@select-item-selected-font-weight: 400;
+@select-item-selected-bg: transparent; //@blue-5
+@select-item-active-bg: #F0F7FF;
+@select-item-active-color: #0678FF;
+@select-dropdown-vertical-padding: 4px;
+
+.ant-select {
+  border-radius: 4px;
+
+  &:hover {
+    border-radius: 4px;
+  }
+}
+
+.ant-select-item-option-active:not(.ant-select-item-option-disabled) {
+  color: #0678FF;
+}
+
+// .ant-select-single.ant-select-show-arrow .ant-select-selection-item,
+// .ant-select-single.ant-select-show-arrow .ant-select-selection-placeholder {
+//   color: #8C8C8C;
+// }
+
+.ant-select-single.ant-select-show-arrow .ant-select-selection-item,
+.ant-select-single.ant-select-show-arrow .ant-select-selection-placeholder {
+  padding-right: 30px;
+}
+
+.ant-select-single:not(.ant-select-customize-input) .ant-select-selector {
+  padding: 0 8px 0 12px;
+}
+
+.ant-select-selection-placeholder {
+  color: #8C8C8C;
+  line-height: 30px !important;
+}
+
+.ant-select:not(.ant-select-customize-input) .ant-select-selector {
+  background-color: #FFFFFF;
+  color: #262626;
+  font-size: 12px;
+  border: 1px solid #CED9E7;
+  border-radius: 4px;
+  font-weight: 400;
+}
+
+.ant-select:not(.ant-select-customize-input):hover{
+  .ant-select-selector {
+    border: 1px solid #0678FF;
+  }
+} 
+
+.ant-select-focused:not(.ant-select-disabled).ant-select:not(.ant-select-customize-input) .ant-select-selector {
+  border-color: #0678FF;
+  background-color: #FFFFFF;
+  box-shadow: none;
+}
+
+.ant-select-disabled.ant-select:not(.ant-select-customize-input) .ant-select-selector {
+  background: #F5F7FA;
+  color: #BFBFBF;
+}
+
+.ant-select-dropdown {
+  background: #FFFFFF;
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  border: 1px solid #E1E8F0;
+
+  .ant-select-item {
+    font-size: 12px;
+  }
+
+}
+
+.multiple-dropdown {
+  .ant-select-item-option {
+    flex-direction: row-reverse;
+  }
+
+  .ant-select-item-option-content {
+    margin-left: 20px
+  }
+
+  .ant-select-item-option-selected {
+    .ant-select-item-option-content {
+      margin-left: 8px
+    }
+  }
+}

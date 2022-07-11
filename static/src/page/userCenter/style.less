@@ -1,0 +1,91 @@
+.usercenter-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 56px - 32px);
+  align-items: center;
+  padding-top: 24px;
+
+  .header {
+    width: 640px;
+    text-align: left;
+
+    img {
+      width: 40px;
+      height: 40px;
+      border-radius: 4px;
+    }
+  }
+
+  .list-wrapper {
+    margin-top: 16px;
+
+    .item {
+      display: flex;
+      flex-direction: column;
+      width: 640px;
+      color: #262626;
+      line-height: 32px;
+      font-weight: 400;
+      font-size: 12px;
+      margin-bottom: 16px;
+      padding: 0 8px;
+      border-bottom: 1px solid #E1E8F0;
+      position: relative;
+
+      .title {
+        font-weight: 500;
+        font-size: 13px;
+      }
+
+      .suffix {
+        position: absolute;
+        top: 0;
+        right: 0;
+      }
+
+    }
+  }
+}
+
+.changepass-modal {
+  .ant-modal-content {
+    border-radius: 8px;
+  }
+
+  .ant-modal-header {
+    background-color: transparent;
+    border: 0;
+    padding: 0 24px;
+
+    .ant-modal-title {
+      line-height: 48px;
+      font-size: 16px;
+      font-weight: 500;
+      color: #262626;
+    }
+  }
+
+  .ant-modal-body {
+    padding: 16px 24px;
+  }
+
+  .ant-modal-footer {
+    border: 0;
+  }
+
+  .ant-form .ant-input {
+    height: 32px;
+    line-height: 32px;
+  }
+
+  .ant-form-item,
+  .ant-form-item-with-help {
+    margin-bottom: 24px
+  }
+
+  .custom-footer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+}

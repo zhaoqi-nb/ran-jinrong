@@ -1,0 +1,759 @@
+{
+    "code": 200,
+    "message": "成功",
+    "data":  {
+        "lft": 42,
+        "rht": 85,
+        "level": 4,
+        "sortNum": null,
+        "child": [
+            {
+                "lft": 43,
+                "rht": 76,
+                "level": 5,
+                "sortNum": null,
+                "child": [
+                    {
+                        "lft": 44,
+                        "rht": 45,
+                        "level": 6,
+                        "sortNum": null,
+                        "child": null,
+                        "resId": 9734,
+                        "resUniqueCode": "c2eec0b5-169d-40c7-8c50-5eeb79cada4f",
+                        "resName": "公司概览",
+                        "resNameEn": "",
+                        "resType": "MENU",
+                        "resAttr": "{\"path\":\"ranshuViewpoint\"}",
+                        "privilegeDtoList": [
+                            {
+                                "resId": 9734,
+                                "privilegeId": 46871,
+                                "privilegeName": "完全权限",
+                                "privilegeType": "PRIVILEGE",
+                                "privilegeCode": 3,
+                                "property": null,
+                                "weight": null,
+                                "privilegeUniqueCode": "4c763873-de6d-4747-a429-3205b7ff4ba7"
+                            },
+                            {
+                                "resId": 9734,
+                                "privilegeId": 46919,
+                                "privilegeName": "pageAccessInfo",
+                                "privilegeType": "APP",
+                                "privilegeCode": null,
+                                "property": "{\"accessState\":\"all\"}",
+                                "weight": 0,
+                                "privilegeUniqueCode": "a7689787-bc37-4560-84b6-6b2599d86ef8"
+                            }
+                        ],
+                        "flag": null,
+                        "menuNotDisplay": false,
+                        "source": null
+                    },
+                    {
+                        "lft": 46,
+                        "rht": 55,
+                        "level": 6,
+                        "sortNum": null,
+                        "child": [
+                            {
+                                "lft": 47,
+                                "rht": 48,
+                                "level": 7,
+                                "sortNum": null,
+                                "child": null,
+                                "resId": 9736,
+                                "resUniqueCode": "7516185a-8093-412f-adf2-1d6f432f4d41",
+                                "resName": "整体概况",
+                                "resNameEn": "",
+                                "resType": "MENU",
+                                "resAttr": "{\"path\":\"ranshuViewpoint\"}",
+                                "privilegeDtoList": [
+                                    {
+                                        "resId": 9736,
+                                        "privilegeId": 46877,
+                                        "privilegeName": "完全权限",
+                                        "privilegeType": "PRIVILEGE",
+                                        "privilegeCode": 3,
+                                        "property": null,
+                                        "weight": null,
+                                        "privilegeUniqueCode": "376bdd70-ec52-464c-b093-5421fde94201"
+                                    },
+                                    {
+                                        "resId": 9736,
+                                        "privilegeId": 46920,
+                                        "privilegeName": "pageAccessInfo",
+                                        "privilegeType": "APP",
+                                        "privilegeCode": null,
+                                        "property": "{\"accessState\":\"all\"}",
+                                        "weight": 0,
+                                        "privilegeUniqueCode": "a93d5491-4702-48b0-8585-78e96b544aa4"
+                                    }
+                                ],
+                                "flag": null,
+                                "menuNotDisplay": false,
+                                "source": null
+                            },
+                            {
+                                "lft": 49,
+                                "rht": 50,
+                                "level": 7,
+                                "sortNum": null,
+                                "child": null,
+                                "resId": 9737,
+                                "resUniqueCode": "ae009ec9-19ec-4a2d-8116-b94b701d897a",
+                                "resName": "品牌优惠率",
+                                "resNameEn": "",
+                                "resType": "MENU",
+                                "resAttr": "{\"path\":\"ranshuViewpoint\"}",
+                                "privilegeDtoList": [
+                                    {
+                                        "resId": 9737,
+                                        "privilegeId": 46880,
+                                        "privilegeName": "完全权限",
+                                        "privilegeType": "PRIVILEGE",
+                                        "privilegeCode": 3,
+                                        "property": null,
+                                        "weight": null,
+                                        "privilegeUniqueCode": "115d95ba-997d-49b9-a4b9-4ebf294499df"
+                                    },
+                                    {
+                                        "resId": 9737,
+                                        "privilegeId": 46921,
+                                        "privilegeName": "pageAccessInfo",
+                                        "privilegeType": "APP",
+                                        "privilegeCode": null,
+                                        "property": "{\"accessState\":\"all\"}",
+                                        "weight": 0,
+                                        "privilegeUniqueCode": "23649094-494f-4d03-bf8f-12c3bc25cbf7"
+                                    }
+                                ],
+                                "flag": null,
+                                "menuNotDisplay": false,
+                                "source": null
+                            },
+                            {
+                                "lft": 51,
+                                "rht": 52,
+                                "level": 7,
+                                "sortNum": null,
+                                "child": null,
+                                "resId": 9738,
+                                "resUniqueCode": "09700ef9-e5cc-4383-9392-c03f27d572fd",
+                                "resName": "竞争格局",
+                                "resNameEn": "",
+                                "resType": "MENU",
+                                "resAttr": "{\"path\":\"ranshuViewpoint\"}",
+                                "privilegeDtoList": [
+                                    {
+                                        "resId": 9738,
+                                        "privilegeId": 46883,
+                                        "privilegeName": "完全权限",
+                                        "privilegeType": "PRIVILEGE",
+                                        "privilegeCode": 3,
+                                        "property": null,
+                                        "weight": null,
+                                        "privilegeUniqueCode": "73f14f4e-6e76-431e-aa96-c5de95f708e9"
+                                    },
+                                    {
+                                        "resId": 9738,
+                                        "privilegeId": 46922,
+                                        "privilegeName": "pageAccessInfo",
+                                        "privilegeType": "APP",
+                                        "privilegeCode": null,
+                                        "property": "{\"accessState\":\"all\"}",
+                                        "weight": 0,
+                                        "privilegeUniqueCode": "1d23f26e-0571-43b7-84aa-a4175fa23017"
+                                    }
+                                ],
+                                "flag": null,
+                                "menuNotDisplay": false,
+                                "source": null
+                            },
+                            {
+                                "lft": 53,
+                                "rht": 54,
+                                "level": 7,
+                                "sortNum": null,
+                                "child": null,
+                                "resId": 9739,
+                                "resUniqueCode": "727650e2-0fc3-4fa9-b6e6-dc0bce2adcd0",
+                                "resName": "商品分析",
+                                "resNameEn": "",
+                                "resType": "MENU",
+                                "resAttr": "{\"path\":\"ranshuViewpoint\"}",
+                                "privilegeDtoList": [
+                                    {
+                                        "resId": 9739,
+                                        "privilegeId": 46886,
+                                        "privilegeName": "完全权限",
+                                        "privilegeType": "PRIVILEGE",
+                                        "privilegeCode": 3,
+                                        "property": null,
+                                        "weight": null,
+                                        "privilegeUniqueCode": "e65e68af-30dc-4562-94d1-25b40c3b5258"
+                                    },
+                                    {
+                                        "resId": 9739,
+                                        "privilegeId": 46923,
+                                        "privilegeName": "pageAccessInfo",
+                                        "privilegeType": "APP",
+                                        "privilegeCode": null,
+                                        "property": "{\"accessState\":\"all\"}",
+                                        "weight": 0,
+                                        "privilegeUniqueCode": "857bad66-4c4a-4cb9-b9a8-206b4515e8d7"
+                                    }
+                                ],
+                                "flag": null,
+                                "menuNotDisplay": false,
+                                "source": null
+                            }
+                        ],
+                        "resId": 9735,
+                        "resUniqueCode": "7bb2bd65-28f4-4db3-a096-15c8fa854db0",
+                        "resName": "线上电商",
+                        "resNameEn": "",
+                        "resType": "MENU",
+                        "resAttr": "",
+                        "privilegeDtoList": [
+                            {
+                                "resId": 9735,
+                                "privilegeId": 46874,
+                                "privilegeName": "完全权限",
+                                "privilegeType": "PRIVILEGE",
+                                "privilegeCode": 3,
+                                "property": null,
+                                "weight": null,
+                                "privilegeUniqueCode": "26e59233-38db-4925-b6eb-6f8ecfa533d5"
+                            }
+                        ],
+                        "flag": null,
+                        "menuNotDisplay": true,
+                        "source": null
+                    },
+                    {
+                        "lft": 56,
+                        "rht": 61,
+                        "level": 6,
+                        "sortNum": null,
+                        "child": [
+                            {
+                                "lft": 57,
+                                "rht": 58,
+                                "level": 7,
+                                "sortNum": null,
+                                "child": null,
+                                "resId": 9741,
+                                "resUniqueCode": "44d8b6fd-fff9-4cd8-b6af-797e1b7058b7",
+                                "resName": "线下门店",
+                                "resNameEn": "",
+                                "resType": "MENU",
+                                "resAttr": "{\"path\":\"ranshuViewpoint\"}",
+                                "privilegeDtoList": [
+                                    {
+                                        "resId": 9741,
+                                        "privilegeId": 46892,
+                                        "privilegeName": "完全权限",
+                                        "privilegeType": "PRIVILEGE",
+                                        "privilegeCode": 3,
+                                        "property": null,
+                                        "weight": null,
+                                        "privilegeUniqueCode": "0274712a-22fb-4e5b-a7c7-a5921e9b06aa"
+                                    },
+                                    {
+                                        "resId": 9741,
+                                        "privilegeId": 46924,
+                                        "privilegeName": "pageAccessInfo",
+                                        "privilegeType": "APP",
+                                        "privilegeCode": null,
+                                        "property": "{\"accessState\":\"all\"}",
+                                        "weight": 0,
+                                        "privilegeUniqueCode": "243cd3e0-fdc6-45bd-beed-d6deb7b0b563"
+                                    }
+                                ],
+                                "flag": null,
+                                "menuNotDisplay": false,
+                                "source": null
+                            },
+                            {
+                                "lft": 59,
+                                "rht": 60,
+                                "level": 7,
+                                "sortNum": null,
+                                "child": null,
+                                "resId": 9742,
+                                "resUniqueCode": "d068ae20-0836-4ee6-aacb-f4c1d0bfa60b",
+                                "resName": "购物中心",
+                                "resNameEn": "",
+                                "resType": "MENU",
+                                "resAttr": "{\"path\":\"ranshuViewpoint\"}",
+                                "privilegeDtoList": [
+                                    {
+                                        "resId": 9742,
+                                        "privilegeId": 46895,
+                                        "privilegeName": "完全权限",
+                                        "privilegeType": "PRIVILEGE",
+                                        "privilegeCode": 3,
+                                        "property": null,
+                                        "weight": null,
+                                        "privilegeUniqueCode": "abdf5ce7-a79c-40e4-b238-47aa5c3e5c28"
+                                    },
+                                    {
+                                        "resId": 9742,
+                                        "privilegeId": 46925,
+                                        "privilegeName": "pageAccessInfo",
+                                        "privilegeType": "APP",
+                                        "privilegeCode": null,
+                                        "property": "{\"accessState\":\"all\"}",
+                                        "weight": 0,
+                                        "privilegeUniqueCode": "69fa5e73-3ce4-4357-94d7-4b5c29b378d9"
+                                    }
+                                ],
+                                "flag": null,
+                                "menuNotDisplay": false,
+                                "source": null
+                            }
+                        ],
+                        "resId": 9740,
+                        "resUniqueCode": "2c6c4b0d-5ad0-42e0-a4ea-a17e9f7f0d8d",
+                        "resName": "线下数据",
+                        "resNameEn": "",
+                        "resType": "MENU",
+                        "resAttr": "",
+                        "privilegeDtoList": [
+                            {
+                                "resId": 9740,
+                                "privilegeId": 46889,
+                                "privilegeName": "完全权限",
+                                "privilegeType": "PRIVILEGE",
+                                "privilegeCode": 3,
+                                "property": null,
+                                "weight": null,
+                                "privilegeUniqueCode": "76d3b365-950f-4faf-936f-c45441cff207"
+                            }
+                        ],
+                        "flag": null,
+                        "menuNotDisplay": true,
+                        "source": null
+                    },
+                    {
+                        "lft": 62,
+                        "rht": 65,
+                        "level": 6,
+                        "sortNum": null,
+                        "child": [
+                            {
+                                "lft": 63,
+                                "rht": 64,
+                                "level": 7,
+                                "sortNum": null,
+                                "child": null,
+                                "resId": 9744,
+                                "resUniqueCode": "90b93557-1d27-434a-a00f-5d528c8cd418",
+                                "resName": "小红书舆情",
+                                "resNameEn": "",
+                                "resType": "MENU",
+                                "resAttr": "{\"path\":\"ranshuViewpoint\"}",
+                                "privilegeDtoList": [
+                                    {
+                                        "resId": 9744,
+                                        "privilegeId": 46901,
+                                        "privilegeName": "完全权限",
+                                        "privilegeType": "PRIVILEGE",
+                                        "privilegeCode": 3,
+                                        "property": null,
+                                        "weight": null,
+                                        "privilegeUniqueCode": "05e53f0d-d3fd-464e-af9e-f4941e1e3fb8"
+                                    },
+                                    {
+                                        "resId": 9744,
+                                        "privilegeId": 46926,
+                                        "privilegeName": "pageAccessInfo",
+                                        "privilegeType": "APP",
+                                        "privilegeCode": null,
+                                        "property": "{\"accessState\":\"all\"}",
+                                        "weight": 0,
+                                        "privilegeUniqueCode": "af8e7de9-a55b-4d03-94a2-88225a2101f1"
+                                    }
+                                ],
+                                "flag": null,
+                                "menuNotDisplay": false,
+                                "source": null
+                            }
+                        ],
+                        "resId": 9743,
+                        "resUniqueCode": "b66f7518-ad8a-481b-95ec-50c182c0d295",
+                        "resName": "舆情",
+                        "resNameEn": "",
+                        "resType": "MENU",
+                        "resAttr": "",
+                        "privilegeDtoList": [
+                            {
+                                "resId": 9743,
+                                "privilegeId": 46898,
+                                "privilegeName": "完全权限",
+                                "privilegeType": "PRIVILEGE",
+                                "privilegeCode": 3,
+                                "property": null,
+                                "weight": null,
+                                "privilegeUniqueCode": "0b7df5de-0075-4d6f-bfe3-799b65618a06"
+                            }
+                        ],
+                        "flag": null,
+                        "menuNotDisplay": true,
+                        "source": null
+                    },
+                    {
+                        "lft": 66,
+                        "rht": 69,
+                        "level": 6,
+                        "sortNum": null,
+                        "child": [
+                            {
+                                "lft": 67,
+                                "rht": 68,
+                                "level": 7,
+                                "sortNum": null,
+                                "child": null,
+                                "resId": 9746,
+                                "resUniqueCode": "7cc86ee1-5ff9-40e0-8296-8d430ec6f8e2",
+                                "resName": "招聘数据",
+                                "resNameEn": "",
+                                "resType": "MENU",
+                                "resAttr": "{\"path\":\"ranshuViewpoint\"}",
+                                "privilegeDtoList": [
+                                    {
+                                        "resId": 9746,
+                                        "privilegeId": 46907,
+                                        "privilegeName": "完全权限",
+                                        "privilegeType": "PRIVILEGE",
+                                        "privilegeCode": 3,
+                                        "property": null,
+                                        "weight": null,
+                                        "privilegeUniqueCode": "d08950e9-4331-49ce-826d-2515f0a83d15"
+                                    },
+                                    {
+                                        "resId": 9746,
+                                        "privilegeId": 46927,
+                                        "privilegeName": "pageAccessInfo",
+                                        "privilegeType": "APP",
+                                        "privilegeCode": null,
+                                        "property": "{\"accessState\":\"all\"}",
+                                        "weight": 0,
+                                        "privilegeUniqueCode": "6c5e3560-3cac-4e1a-9b92-f3195909b7e7"
+                                    }
+                                ],
+                                "flag": null,
+                                "menuNotDisplay": false,
+                                "source": null
+                            }
+                        ],
+                        "resId": 9745,
+                        "resUniqueCode": "08356453-5148-4195-a83b-08c40bb2a3e7",
+                        "resName": "招聘",
+                        "resNameEn": "",
+                        "resType": "MENU",
+                        "resAttr": "",
+                        "privilegeDtoList": [
+                            {
+                                "resId": 9745,
+                                "privilegeId": 46904,
+                                "privilegeName": "完全权限",
+                                "privilegeType": "PRIVILEGE",
+                                "privilegeCode": 3,
+                                "property": null,
+                                "weight": null,
+                                "privilegeUniqueCode": "dd3b6499-ea35-4c87-8fc0-4c12f08348eb"
+                            }
+                        ],
+                        "flag": null,
+                        "menuNotDisplay": true,
+                        "source": null
+                    },
+                    {
+                        "lft": 70,
+                        "rht": 75,
+                        "level": 6,
+                        "sortNum": null,
+                        "child": [
+                            {
+                                "lft": 71,
+                                "rht": 72,
+                                "level": 7,
+                                "sortNum": null,
+                                "child": null,
+                                "resId": 9748,
+                                "resUniqueCode": "1b9cf42b-5d80-46e0-8f78-cb6e44d3a586",
+                                "resName": "燃数报告",
+                                "resNameEn": "",
+                                "resType": "MENU",
+                                "resAttr": "{\"path\":\"ranshuViewpoint\"}",
+                                "privilegeDtoList": [
+                                    {
+                                        "resId": 9748,
+                                        "privilegeId": 46913,
+                                        "privilegeName": "完全权限",
+                                        "privilegeType": "PRIVILEGE",
+                                        "privilegeCode": 3,
+                                        "property": null,
+                                        "weight": null,
+                                        "privilegeUniqueCode": "7066cf8f-1a3b-4307-91b2-d2213188ff13"
+                                    },
+                                    {
+                                        "resId": 9748,
+                                        "privilegeId": 46928,
+                                        "privilegeName": "pageAccessInfo",
+                                        "privilegeType": "APP",
+                                        "privilegeCode": null,
+                                        "property": "{\"accessState\":\"all\"}",
+                                        "weight": 0,
+                                        "privilegeUniqueCode": "c803feeb-2e93-422c-bb20-e1b62c6200bb"
+                                    }
+                                ],
+                                "flag": null,
+                                "menuNotDisplay": false,
+                                "source": null
+                            },
+                            {
+                                "lft": 73,
+                                "rht": 74,
+                                "level": 7,
+                                "sortNum": null,
+                                "child": null,
+                                "resId": 9749,
+                                "resUniqueCode": "26436ca2-6172-49da-9c79-1497601a8e32",
+                                "resName": "燃数观点",
+                                "resNameEn": "",
+                                "resType": "MENU",
+                                "resAttr": "{\"path\":\"ranshuViewpoint\"}",
+                                "privilegeDtoList": [
+                                    {
+                                        "resId": 9749,
+                                        "privilegeId": 46916,
+                                        "privilegeName": "完全权限",
+                                        "privilegeType": "PRIVILEGE",
+                                        "privilegeCode": 3,
+                                        "property": null,
+                                        "weight": null,
+                                        "privilegeUniqueCode": "8f788fa1-e022-463d-9c4f-5d17c9f8611c"
+                                    },
+                                    {
+                                        "resId": 9749,
+                                        "privilegeId": 46929,
+                                        "privilegeName": "pageAccessInfo",
+                                        "privilegeType": "APP",
+                                        "privilegeCode": null,
+                                        "property": "{\"accessState\":\"all\"}",
+                                        "weight": 0,
+                                        "privilegeUniqueCode": "374b4e49-b3ea-474a-870e-a598de4b170a"
+                                    }
+                                ],
+                                "flag": null,
+                                "menuNotDisplay": false,
+                                "source": null
+                            }
+                        ],
+                        "resId": 9747,
+                        "resUniqueCode": "3d7155f5-796b-465e-b7a4-634b74cd0428",
+                        "resName": "研究观点",
+                        "resNameEn": "",
+                        "resType": "MENU",
+                        "resAttr": "",
+                        "privilegeDtoList": [
+                            {
+                                "resId": 9747,
+                                "privilegeId": 46910,
+                                "privilegeName": "完全权限",
+                                "privilegeType": "PRIVILEGE",
+                                "privilegeCode": 3,
+                                "property": null,
+                                "weight": null,
+                                "privilegeUniqueCode": "63b5f614-6aa5-4c58-8a63-ac09435d7935"
+                            }
+                        ],
+                        "flag": null,
+                        "menuNotDisplay": true,
+                        "source": null
+                    }
+                ],
+                "resId": 9733,
+                "resUniqueCode": "e71091e4-1bb1-4dc2-8f63-d35b2633f226",
+                "resName": "天猫",
+                "resNameEn": "",
+                "resType": "MENU",
+                "resAttr": "{\"img\":\"lws.png\",\"stock_code\":\"002127.SZ\"}",
+                "privilegeDtoList": [
+                    {
+                        "resId": 9733,
+                        "privilegeId": 46868,
+                        "privilegeName": "完全权限",
+                        "privilegeType": "PRIVILEGE",
+                        "privilegeCode": 3,
+                        "property": null,
+                        "weight": null,
+                        "privilegeUniqueCode": "23bc2bbc-680a-41c1-9ea3-4d3c4fdb64b8"
+                    }
+                ],
+                "flag": null,
+                "menuNotDisplay": true,
+                "source": null
+            },
+            {
+                "lft": 77,
+                "rht": 80,
+                "level": 5,
+                "sortNum": null,
+                "child": [
+                    {
+                        "lft": 78,
+                        "rht": 79,
+                        "level": 6,
+                        "sortNum": null,
+                        "child": null,
+                        "resId": 9753,
+                        "resUniqueCode": "e85040cf-ccca-4436-94ec-809d437af159",
+                        "resName": "测试菜单",
+                        "resNameEn": "",
+                        "resType": "MENU",
+                        "resAttr": "{\"path\":\"test\"}",
+                        "privilegeDtoList": [
+                            {
+                                "resId": 9753,
+                                "privilegeId": 46939,
+                                "privilegeName": "完全权限",
+                                "privilegeType": "PRIVILEGE",
+                                "privilegeCode": 3,
+                                "property": null,
+                                "weight": null,
+                                "privilegeUniqueCode": "4ee309a7-0be9-4160-9276-27dcb3c5188f"
+                            },
+                            {
+                                "resId": 9753,
+                                "privilegeId": 46942,
+                                "privilegeName": "pageAccessInfo",
+                                "privilegeType": "APP",
+                                "privilegeCode": null,
+                                "property": "{\"accessState\":\"all\"}",
+                                "weight": 0,
+                                "privilegeUniqueCode": "86a707c4-7e69-4d6f-a591-d35059ac31d4"
+                            }
+                        ],
+                        "flag": null,
+                        "menuNotDisplay": false,
+                        "source": null
+                    }
+                ],
+                "resId": 9751,
+                "resUniqueCode": "d1048e18-c473-42dc-a380-f7869dbd1899",
+                "resName": "淘宝",
+                "resNameEn": "",
+                "resType": "MENU",
+                "resAttr": "",
+                "privilegeDtoList": [
+                    {
+                        "resId": 9751,
+                        "privilegeId": 46933,
+                        "privilegeName": "完全权限",
+                        "privilegeType": "PRIVILEGE",
+                        "privilegeCode": 3,
+                        "property": null,
+                        "weight": null,
+                        "privilegeUniqueCode": "56d3911d-6842-4585-91b4-d95a99a375d5"
+                    }
+                ],
+                "flag": null,
+                "menuNotDisplay": true,
+                "source": null
+            },
+            {
+                "lft": 81,
+                "rht": 84,
+                "level": 5,
+                "sortNum": null,
+                "child": [
+                    {
+                        "lft": 82,
+                        "rht": 83,
+                        "level": 6,
+                        "sortNum": null,
+                        "child": null,
+                        "resId": 9754,
+                        "resUniqueCode": "b46af1e0-7665-493b-8347-2d7243aff8e3",
+                        "resName": "测试菜单",
+                        "resNameEn": "",
+                        "resType": "MENU",
+                        "resAttr": "{\"path\":\"test\"}",
+                        "privilegeDtoList": [
+                            {
+                                "resId": 9754,
+                                "privilegeId": 46943,
+                                "privilegeName": "完全权限",
+                                "privilegeType": "PRIVILEGE",
+                                "privilegeCode": 3,
+                                "property": null,
+                                "weight": null,
+                                "privilegeUniqueCode": "9bd29a82-5db1-41a9-9b2c-38d6aff184b7"
+                            },
+                            {
+                                "resId": 9754,
+                                "privilegeId": 46946,
+                                "privilegeName": "pageAccessInfo",
+                                "privilegeType": "APP",
+                                "privilegeCode": null,
+                                "property": "{\"accessState\":\"all\"}",
+                                "weight": 0,
+                                "privilegeUniqueCode": "1952f966-f907-4b19-a775-53b2eb649949"
+                            }
+                        ],
+                        "flag": null,
+                        "menuNotDisplay": false,
+                        "source": null
+                    }
+                ],
+                "resId": 9752,
+                "resUniqueCode": "5e352fc7-c9a0-4dd9-84bb-d4c68a769fd9",
+                "resName": "河马生鲜",
+                "resNameEn": "",
+                "resType": "MENU",
+                "resAttr": "",
+                "privilegeDtoList": [
+                    {
+                        "resId": 9752,
+                        "privilegeId": 46936,
+                        "privilegeName": "完全权限",
+                        "privilegeType": "PRIVILEGE",
+                        "privilegeCode": 3,
+                        "property": null,
+                        "weight": null,
+                        "privilegeUniqueCode": "5b39d4d9-a2c5-44cf-92a9-4ef37b41add7"
+                    }
+                ],
+                "flag": null,
+                "menuNotDisplay": true,
+                "source": null
+            }
+        ],
+        "resId": 9750,
+        "resUniqueCode": "f40bb0c5-74e8-4b32-8196-def79aebccdc",
+        "resName": "阿里巴巴",
+        "resNameEn": "",
+        "resType": "MENU",
+        "resAttr": "{\"img\":\"lws.png\",\"stock_code\":\"002127.SZ\"}",
+        "privilegeDtoList": [
+            {
+                "resId": 9750,
+                "privilegeId": 46930,
+                "privilegeName": "完全权限",
+                "privilegeType": "PRIVILEGE",
+                "privilegeCode": 3,
+                "property": null,
+                "weight": null,
+                "privilegeUniqueCode": "870db1ae-3104-4790-992d-f21231170266"
+            }
+        ],
+        "flag": null,
+        "menuNotDisplay": true,
+        "source": null
+    }
+}

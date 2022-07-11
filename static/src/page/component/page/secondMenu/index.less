@@ -1,0 +1,249 @@
+@import '~@less/base.less';
+
+.second_rightMenuBox.select_menu {
+    width: 100%;
+    height: 100%;
+}
+
+.second_rightMenuBox {
+    .rightMenuBox {
+        display: flex;
+        flex-direction: column;
+        .primaryBox {
+            flex: 1;
+            overflow-y: auto;
+        }
+    }
+}
+
+.rightMenuBox {
+    border-right: 1px solid #E1E8F0;
+    flex: 0 0 @menu-company-width;
+
+    .header-industry {
+        background-image: linear-gradient(#E6F1FF, #F5F7FA);
+        ;
+        padding: 16px 4px;
+        text-align: center;
+        height: 166px;
+        position: relative;
+
+        dl {
+            >dt>img {
+                margin-top: 10px;
+                width: 40px;
+                height: 40px;
+                border-radius: 8px;
+                border: 1px solid #ffffff;
+            }
+
+            .show-name {
+                margin-top: 8px;
+                height: 20px;
+                font-size: 16px;
+                font-family: 'PingFangSC-Medium, PingFang SC';
+                font-weight: 500;
+                color: #2B2B2B;
+                line-height: 24px;
+                text-align: center;
+            }
+
+            .show-code {
+                height: 18px;
+                font-size: 12px;
+                font-family: 'PingFangSC-Regular, PingFang SC';
+                font-weight: 400;
+                color: #646464;
+                line-height: 18px;
+                text-align: center;
+                margin-bottom: 8px;
+            }
+        }
+
+        >p {
+            text-align: center;
+
+            >span {
+                display: inline-block;
+                border: 1px solid #ccc;
+                width: 64px;
+                height: 24px;
+                text-align: center;
+                margin: 0 4px;
+                background: linear-gradient(270deg, #0697FF 0%, #0678FF 100%);
+                border-radius: 4px;
+                color: white;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .menuTitle {
+        font-size: 12px;
+        color: #595959;
+        height: 32px;
+    }
+
+    .primaryBox {
+        padding: 0 8px;
+        .primaryBox-title {
+            margin-top: 16px;
+            color: #8C8C8C;
+            font-size: 12px;
+            margin-bottom: 8px;
+        }
+        .primaryBox-block {
+            padding: 8px;
+            height: 56px;
+            background: #FFFFFF;
+            box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+            border-radius: 4px;
+            margin: 8px 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            .primaryBox-block-detailTitle-href{
+                display: inline-block;
+                width: 128px;
+                height: 18px;
+                overflow: hidden;
+                white-space:normal;
+                text-overflow: ellipsis;
+            }
+            >p{
+                padding: 0;
+                margin: 0;
+            }
+            .primaryBox-block-detailTitle {
+                display: inline-block;
+                height: 18px;
+                font-size: 12px;
+                font-family: PingFangSC-Regular, PingFang SC;
+                font-weight: 400;
+                color: #8C8C8C;;
+                line-height: 18px;
+                width: 128px;
+                overflow: hidden;
+                white-space:nowrap;
+                text-overflow: ellipsis;
+            }
+            .primaryBox-block-value {
+                font-size: 13px;
+                font-family: Arial-BoldMT, Arial;
+                font-weight: normal;
+                color: #262626;
+                line-height: 20px;
+            }
+        }
+
+        .primaryBox-block-href{
+            height: 116px;
+            font-size: 13px;
+            font-family: PingFangSC-Semibold, PingFang SC;
+            font-weight: 600;
+        }
+
+        .primaryBox-block-href1Length{
+            height: 68px;
+        }
+        .primaryBox-block-href2Length{
+            height: 92px;
+        }
+
+    }
+
+    .primaryBox-bottom {
+        margin: 0;
+        margin-top: 8px;
+        padding-bottom: 12px;
+        padding-left: 8px;
+        z-index: 1;
+        // position: fixed;
+        bottom: -5px;
+        color: #8c8c8c;
+        display: flex;
+        align-items: center;
+    }
+
+    .ant-layout.ant-layout-has-sider {
+        height: 100%;
+    }
+
+    .ant-layout-sider.ant-layout-sider-dark {
+        flex: 0 0 168px ;
+        max-width: 168px ;
+        min-width: 168px ;
+        width: 168px ;
+    }
+
+    .ant-layout-sider.ant-layout-sider-dark {
+        background: #F5F7FA;
+    }
+
+    .ant-menu.ant-menu-root.ant-menu-inline.ant-menu-dark {
+        padding: 0 0px;
+        background: #F5F7FA;
+    }
+
+    .ant-menu.ant-menu-root.ant-menu-inline.ant-menu-dark:hover {
+        color: #0678FF;
+    }
+
+    .ant-menu-item.ant-menu-item-only-child {
+        // height: 32px;
+        font-family: PingFangSC-Regular, PingFang SC;
+        font-weight: 400;
+        color: #262626;
+        line-height: 32px;
+
+    }
+
+    .ant-menu-item-selected.ant-menu-item.ant-menu-item-only-child {
+        background: #E6F1FF;
+        color: #0678FF;
+        height: 32px;
+        font-size: 12px;
+        font-weight: 500 !important;
+        // fontWeight: 500;
+    }
+
+    .ant-menu-item-selected .colors {
+        color: #0678FF !important;
+    }
+
+    .ant-menu-item-disabled.ant-menu-item.ant-menu-item-only-child {
+        color: rgba(166, 166, 166, 1);
+    }
+
+    .ant-layout.site-layout {
+        background: white;
+    }
+
+    .ant-menu-inline.ant-menu-root .ant-menu-submenu-title>.ant-menu-title-content {
+        color: #595959;
+        font-size: 12px;
+        // padding-left: 30px;
+    }
+
+    .ant-menu .ant-menu-submenu {
+        border-top: 1px solid #E1E8F0;
+    }
+
+    .ant-menu-submenu-title {
+        .ant-menu-title-content {
+            font-size: 12px;
+        }
+
+        .anticon {
+            color: #898989 !important;
+        }
+    }
+
+    .select-btn {
+
+        >.anticon+span,
+        .ant-btn>span+.anticon {
+            margin-left: 0;
+        }
+    }
+}

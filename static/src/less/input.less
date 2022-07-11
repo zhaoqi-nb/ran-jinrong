@@ -1,0 +1,78 @@
+//input
+@input-height-base: 32px;
+@input-height-lg: 40px;
+@input-padding-horizontal-base: 10px;
+// @input-placeholder-color: #fff; //@black-3;
+// @input-color: #262626; //@black-base;
+@input-hover-border-color: transparent; //@blue-base;
+@input-disabled-bg: #F5F7FA;
+@input-disabled-color: #BFBFBF;
+
+.ant-input {
+  font-size: 12px;
+  font-weight: 400; //暂时先这样处理
+
+  &::-webkit-input-placeholder {
+    color: #8C8C8C;
+    font-weight: 200;
+  }
+}
+
+.ant-input-affix-wrapper {
+  background-color: #F5F7FA;
+  border-color: transparent;
+  border-radius: 4px;
+  padding: 4px 8px;
+
+  .ant-input-prefix {
+    margin: 0;
+  }
+
+  .ant-input {
+    padding: 0 8px !important;
+    background-color: #F5F7FA;
+  }
+
+  &:hover {
+    background: #EFF3F7;
+
+    .ant-input {
+      background-color: #EFF3F7;
+    }
+  }
+
+}
+
+.ant-input-affix-wrapper:focus,
+.ant-input-affix-wrapper-focused {
+  border-color: #0678FF !important;
+  box-shadow: none !important;
+  background: #FFFFFF !important;
+  color: #262626 !important;
+
+  .ant-input {
+    background-color: #FFFFFF !important
+  }
+}
+
+.ant-input-affix-wrapper-disabled:hover {
+  border-color: transparent;
+  background-color: #F5F7FA;
+
+  .ant-input {
+    background-color: #F5F7FA
+  }
+}
+
+.search-input {
+  border-radius: 20px;
+}
+
+/**模板设置、小组件设置里的全局输入框样式*/
+.template-set,
+.component-set {
+  .ant-input {
+    height: 40px;
+    border-radius: @border-radius-base ;
+  }
+}

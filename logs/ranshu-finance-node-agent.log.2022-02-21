@@ -1,0 +1,104 @@
+2022-02-21 09:54:37,132 INFO 96389 [egg-logrotator] agent logger reload: got log-reload message
+2022-02-21 10:00:00,011 ERROR 96389 nodejs.ClusterClientNoResponseError: client no response in 286662ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 96389
+hostname: rs-front-01.local
+
+2022-02-21 14:35:21,645 INFO 53575 [egg:logger] init all loggers with options: {"dir":"/Users/rs-front-01/Documents/Projects/ranshu-finance-node/logs/","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ranshu-finance-node.log","coreLogName":"ranshu-finance-node-core.log","agentLogName":"ranshu-finance-node-agent.log","errorLogName":"ranshu-finance-node.err","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2022-02-21 14:35:21,999 INFO 53575 [egg-redis] server connecting redis://:***@172.19.228.122:6379/2
+2022-02-21 14:35:22,006 INFO 53575 [egg:core] dump config after load, 5ms
+2022-02-21 14:35:22,321 INFO 53575 [egg-watcher] Start watching: ["/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/app","/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/config","/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/mocks","/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/mocks_proxy","/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/app.js"]
+2022-02-21 14:35:22,321 INFO 53575 [egg-watcher] Start watching: "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/app"
+2022-02-21 14:35:22,321 INFO 53575 [egg-watcher] Start watching: "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/config"
+2022-02-21 14:35:22,322 INFO 53575 [egg-watcher] Start watching: "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/mocks"
+2022-02-21 14:35:22,322 INFO 53575 [egg-watcher] Start watching: "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/mocks_proxy"
+2022-02-21 14:35:22,322 INFO 53575 [egg-watcher] Start watching: "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/app.js"
+2022-02-21 14:35:22,322 INFO 53575 [egg-watcher:agent] watcher start success
+2022-02-21 14:35:22,328 INFO 53575 [egg-redis] client connect success
+2022-02-21 14:35:22,371 INFO 53575 [egg-redis] instance[0] status OK, client ready
+2022-02-21 14:35:22,383 INFO 53575 [egg:core] dump config after ready, 11ms
+2022-02-21 16:31:36,016 ERROR 53575 nodejs.ClusterClientNoResponseError: client no response in 1687025ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 53575
+hostname: rs-front-01.local
+
+2022-02-21 19:01:41,595 INFO 83411 [egg:logger] init all loggers with options: {"dir":"/Users/rs-front-01/Documents/Projects/ranshu-finance-node/logs/","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ranshu-finance-node.log","coreLogName":"ranshu-finance-node-core.log","agentLogName":"ranshu-finance-node-agent.log","errorLogName":"ranshu-finance-node.err","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2022-02-21 19:01:41,738 INFO 83411 [egg-redis] server connecting redis://:***@172.19.228.122:6379/2
+2022-02-21 19:01:41,750 INFO 83411 [egg:core] dump config after load, 5ms
+2022-02-21 19:01:41,834 INFO 83411 [egg-watcher] Start watching: ["/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/app","/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/config","/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/mocks","/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/mocks_proxy","/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/app.js"]
+2022-02-21 19:01:41,834 INFO 83411 [egg-watcher] Start watching: "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/app"
+2022-02-21 19:01:41,835 INFO 83411 [egg-watcher] Start watching: "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/config"
+2022-02-21 19:01:41,835 INFO 83411 [egg-watcher] Start watching: "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/mocks"
+2022-02-21 19:01:41,835 INFO 83411 [egg-watcher] Start watching: "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/mocks_proxy"
+2022-02-21 19:01:41,835 INFO 83411 [egg-watcher] Start watching: "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/app.js"
+2022-02-21 19:01:41,835 INFO 83411 [egg-watcher:agent] watcher start success
+2022-02-21 19:01:41,844 INFO 83411 [egg-redis] client connect success
+2022-02-21 19:01:41,862 INFO 83411 [egg-redis] instance[0] status OK, client ready
+2022-02-21 19:01:42,031 INFO 83411 [egg:core] dump config after ready, 166ms
+2022-02-21 20:06:30,017 ERROR 83411 nodejs.ClusterClientNoResponseError: client no response in 522441ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 83411
+hostname: rs-front-01.local
+
+2022-02-21 20:06:46,593 ERROR 83411 [egg-redis] client error: Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:220:20) {
+  errno: -54,
+  code: 'ECONNRESET',
+  syscall: 'read'
+}
+2022-02-21 20:06:46,593 ERROR 83411 nodejs.ECONNRESETError: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:220:20)
+errno: -54
+code: "ECONNRESET"
+syscall: "read"
+name: "ECONNRESETError"
+pid: 83411
+hostname: rs-front-01.local
+
+2022-02-21 20:06:46,660 INFO 83411 [egg-redis] client connect success
+2022-02-21 20:23:59,205 INFO 95450 [egg:logger] init all loggers with options: {"dir":"/Users/rs-front-01/Documents/Projects/ranshu-finance-node/logs/","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ranshu-finance-node.log","coreLogName":"ranshu-finance-node-core.log","agentLogName":"ranshu-finance-node-agent.log","errorLogName":"ranshu-finance-node.err","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2022-02-21 20:23:59,241 INFO 95450 [egg-redis] server connecting redis://:***@172.19.228.122:6379/2
+2022-02-21 20:23:59,247 INFO 95450 [egg:core] dump config after load, 4ms
+2022-02-21 20:23:59,297 INFO 95450 [egg-watcher] Start watching: ["/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/app","/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/config","/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/mocks","/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/mocks_proxy","/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/app.js"]
+2022-02-21 20:23:59,297 INFO 95450 [egg-watcher] Start watching: "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/app"
+2022-02-21 20:23:59,297 INFO 95450 [egg-watcher] Start watching: "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/config"
+2022-02-21 20:23:59,298 INFO 95450 [egg-watcher] Start watching: "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/mocks"
+2022-02-21 20:23:59,298 INFO 95450 [egg-watcher] Start watching: "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/mocks_proxy"
+2022-02-21 20:23:59,298 INFO 95450 [egg-watcher] Start watching: "/Users/rs-front-01/Documents/Projects/ranshu-finance-node/config/app.js"
+2022-02-21 20:23:59,298 INFO 95450 [egg-watcher:agent] watcher start success
+2022-02-21 20:23:59,304 INFO 95450 [egg-redis] client connect success
+2022-02-21 20:23:59,319 INFO 95450 [egg-redis] instance[0] status OK, client ready
+2022-02-21 20:23:59,326 INFO 95450 [egg:core] dump config after ready, 5ms
+2022-02-21 22:22:54,008 ERROR 95450 nodejs.ClusterClientNoResponseError: client no response in 1892167ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 95450
+hostname: rs-front-01.local
+
+2022-02-21 23:10:04,006 ERROR 95450 nodejs.ClusterClientNoResponseError: client no response in 2610112ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 95450
+hostname: rs-front-01.local
+
+2022-02-22 09:59:12,022 ERROR 95450 nodejs.ClusterClientNoResponseError: client no response in 38908207ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 95450
+hostname: rs-front-01.local
+

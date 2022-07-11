@@ -1,0 +1,1 @@
+webpack --progress --config ./static/build/webpack.prod.config.js

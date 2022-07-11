@@ -1,0 +1,82 @@
+.filter-range {
+  display: flex;
+  align-items: center;
+  .filter-range-inner {
+    display: flex;
+    align-items: center;
+    // >div {
+    //   width: 120px;
+    // }
+    .split {
+      margin: 0 4px;
+      color: #BFBFBF;
+    }
+    .filter-range-input-addon-after {
+       color: #8C8C8C;
+    }
+  }
+  .filter-range-suffix {
+    display: flex;
+    align-items: center;
+    margin-left: 16px;
+    .clear-btn,
+    .submite-btn {
+      font-size: 12px;
+      line-height: 18px;
+      cursor: pointer;
+    }
+
+    .clear-btn {
+      color: #8C8C8C;
+      &:hover {
+        color: #E2492F;
+      }
+      &-disabled,
+      &-disabled:hover {
+        color: #BFBFBF;
+        cursor: not-allowed;
+      }
+    }
+    .submite-btn {
+      color: #0678ff;
+      margin-left: 8px;
+      &-disabled,
+      &-disabled:hover {
+        color: #BFBFBF;
+        cursor: not-allowed;
+      }
+    }
+  }
+  .ant-input-number-group-wrapper {
+    background: #FFFFFF;
+    border-radius: 2px;
+    border: 1px solid #CED9E7;
+    .ant-input-number-group-addon {
+      border: none;
+      padding: 0 8px;
+      background-color: transparent;
+    }
+    .ant-input-number {
+      border: none;
+    }
+    .ant-input-number-handler {
+      border-right: 1px solid #d9d9d9;
+    }
+  }
+  .ant-input-number-input {
+    height: 24px;
+    padding-left: 0;
+  }
+  .ant-input-number-focused {
+    box-shadow: none;
+  }
+
+  .rc-input-number-wrapper {
+    background: #FFFFFF;
+    border-radius: 2px;
+    border: 1px solid #CED9E7;
+    .rc-input-number-input {
+      border: 0;
+    }
+  }
+}

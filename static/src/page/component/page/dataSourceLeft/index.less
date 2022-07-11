@@ -1,0 +1,116 @@
+@import '~@less/base.less';
+
+
+.rightMenuBox{
+    border-right: 1px solid #E1E8F0;
+    flex: 0 0 @menu-company-width;
+
+    .header-industry{
+        background-image: linear-gradient(#E6F1FF, #F5F7FA);;
+        padding: 8px 4px;
+        text-align: center;
+        height: 166px;
+        position: relative;
+        dl{
+            >dt>img{
+                margin-top: 10px;
+                width: 40px;
+                height: 40px;
+                border-radius: 8px;
+                border: 1px solid #ffffff;
+            }
+            .show-name{
+                margin-top: 8px;
+                height: 24px;
+                font-size: 16px;
+                font-family: 'PingFangSC-Medium, PingFang SC';
+                font-weight: 500;
+                color: #2B2B2B;
+                line-height: 24px;
+                text-align: center;
+            }
+            .show-code{
+                height: 18px;
+                font-size: 12px;
+                font-family: 'PingFangSC-Regular, PingFang SC';
+                font-weight: 400;
+                color: #646464;
+                line-height: 18px;
+                text-align: center;
+            }
+        }
+
+        >p{
+            text-align: center;
+            >span{
+                display: inline-block;
+                border: 1px solid #ccc;
+                width: 64px;
+                height: 24px;
+                text-align: center;
+                margin: 0 4px;
+                background: linear-gradient(270deg, #0697FF 0%, #0678FF 100%);
+                border-radius: 4px;
+                color: white;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .menuTitle{
+        font-size: 12px;
+        color: #595959;
+        height: 32px;
+    }
+    
+    .ant-layout.ant-layout-has-sider{
+        height: 100%;
+    }
+    
+    .ant-layout-sider.ant-layout-sider-dark{
+        flex: 0 0 168px ;
+        max-width: 168px ;
+        min-width: 168px ;
+        width: 168px ;
+    }
+    
+    .ant-layout-sider.ant-layout-sider-dark{
+        background: #F5F7FA;
+    }
+    
+    .ant-menu.ant-menu-root.ant-menu-inline.ant-menu-dark{
+        padding: 0 0px;
+        background: #F5F7FA;
+    }
+     .ant-menu.ant-menu-root.ant-menu-inline.ant-menu-dark:hover{
+        color: #0678FF;
+    }
+    
+    .ant-menu-item.ant-menu-item-only-child{
+        height: 32px ;
+        font-size: 13px;
+        font-family: PingFangSC-Regular, PingFang SC;
+        font-weight: 400;
+        color: #262626;
+        line-height: 32px ;
+        
+    }
+    .ant-menu-item-selected.ant-menu-item.ant-menu-item-only-child{
+        background: #E6F1FF ;
+        color: #007AFF ;
+        height: 32px ;
+    }
+    .ant-menu-item-disabled.ant-menu-item.ant-menu-item-only-child{
+        color: rgba(166, 166, 166, 1) ;
+    }
+    .ant-layout.site-layout{
+        background: white;
+    }
+    .ant-menu-title-content{
+        // padding-left: 30px;
+    }
+    .ant-menu .ant-menu-submenu {
+        border-top:1px solid #E1E8F0;
+    }
+}
+

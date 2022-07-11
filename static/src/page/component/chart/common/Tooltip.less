@@ -1,0 +1,78 @@
+.tooltip-wrapper {
+  width: 100%;
+  height: 100%;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: ArialMT;
+  background-color: #FFFFFF;
+  // box-shadow: 0px 2px 8px 0px rgba(38, 38, 38, 0.1);
+  border-radius: 4px;
+  border: 1px solid #E1E8F0;
+
+  .title {
+    color: #5C5C5C;
+    line-height: 24px;
+    border-bottom: 1px solid #EFF3F7;
+    padding: 0 8px;
+  }
+
+  .no--border {
+    border-bottom: none;
+  }
+
+  .content {
+    padding: 4px 4px;
+
+    .item {
+      display: flex;
+      // align-items: center;
+      line-height: 18px;
+      padding: 4px;
+    }
+
+    .inline {
+      flex: 1;
+      display: flex;
+      // align-items: center;
+      justify-content: space-between;
+      overflow: hidden;
+    }
+
+    .item-marker {
+      margin-right: 5px;
+
+      >span {
+        width: 8px !important;
+        height: 8px !important;
+        border-radius: 8px !important;
+        margin-right: 0 !important;
+      }
+    }
+
+    .item-custom-marker {
+      >span {
+        background-color: #c23531 !important;
+      }
+    }
+
+    .item-label {
+      flex: 1;
+      color: #262626;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .item-label::after {
+      content: "：";
+    }
+
+    .item-value {
+      color: #262626;
+      margin-left: 10px;
+      font-weight: 700;
+      max-width: 500px;
+      white-space: normal;
+    }
+  }
+}

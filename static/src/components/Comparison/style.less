@@ -1,0 +1,106 @@
+.comparison-component {
+  // width: 100%;
+  .comparison-input {
+    width: 180px;
+    height: 32px;
+    background: #8C8C8C;
+    border-radius: 4px;
+    color: #fff;
+    input {
+      background: #8C8C8C;
+      &::-webkit-input-placeholder {
+        color: #FFFFFF
+      }
+      &:hover{
+        background: #8C8C8C;
+      }
+    }
+    &.ant-input-affix-wrapper:hover{
+       background: #8C8C8C !important;
+    }
+    &.ant-input-affix-wrapper:hover .ant-input {
+      background-color: transparent !important;
+    }
+    
+    &.ant-input-affix-wrapper:focus, &.ant-input-affix-wrapper-focused {
+      background: #8C8C8C !important;
+    }
+    &.ant-input-affix-wrapper:focus, &.ant-input-affix-wrapper-focused {
+      .ant-input {
+        background: #8C8C8C !important;
+      }
+    }
+    .ant-input {
+      color: #fff;
+    }
+  }
+  .comparison-input-visible {
+    width: 320px;
+  }
+}
+
+
+.comparison-overlay {
+  width: 320px;
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  border: 1px solid #E1E8F0;
+  background-color: #fff;
+  .header {
+    padding: 12px;
+    .input {
+      background: #F5F7FA;
+      border-radius: 16px;
+      height: 32px;
+    }
+  }
+  .search-list {
+    max-height: 300px;
+    overflow-y: auto;
+    .item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+       padding: 0 12px;
+       cursor: pointer;
+      .label {
+        font-weight: 400;
+        line-height: 32px;
+        color: #262626;
+      }
+      .suffix {
+        color: #277EFF;
+        line-height: 32px;
+        cursor: pointer;
+      }
+      &:hover {
+        background: #F0F7FF;
+      }
+    }
+  }
+  .tags-list {
+    display: flex;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    padding: 8px 12px;
+    height: 88px;
+    background-color: #F5F7FA;
+    overflow: auto;
+    .tag {
+      display: flex;
+      align-items: center;
+      padding: 3px 6px;
+      background: #FFFFFF;
+      border-radius: 2px;
+      border: 1px solid #E1E8F0;
+      margin-bottom: 4px;
+      margin-right: 4px;
+    }
+  }
+  .overlay-oprator {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 12px;
+  }
+}

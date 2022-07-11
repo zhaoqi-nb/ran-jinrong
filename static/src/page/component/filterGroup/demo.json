@@ -1,0 +1,91 @@
+{
+  "paramKey": "industry",
+  "controlledElement": [
+    "10183"
+  ],
+  "effectElement": [
+    "10193",
+    "10182"
+  ],
+  "groupOptions": [{
+      "paramKey": "first_type_id",
+      "showAll": true,
+      "isMultiple": false,
+      "title": "所属一级行业",
+      "type": "cascader",
+      "key": "1"
+    },
+    {
+      "paramKey": "second_type_id",
+      "showAll": true,
+      "isMultiple": false,
+      "title": "所属二级行业",
+      "type": "cascader",
+      "key": "2"
+    },
+    {
+      "paramKey": "third_type_id",
+      "showAll": true,
+      "isMultiple": false,
+      "title": "所属三级行业",
+      "type": "cascader",
+      "key": "3"
+    },
+    {
+      "paramKey": "screenSelect",
+      "showAll": true,
+      "children": [{
+          "label": "融资品牌",
+          "value": "1"
+        },
+        {
+          "label": "高增长品牌",
+          "value": "2"
+        },
+        {
+          "label": "下沉品牌",
+          "value": "3"
+        },
+        {
+          "label": "初创品牌",
+          "value": "4"
+        }
+      ],
+      "isMultiple": false,
+      "title": "标签",
+      "type": "filterButtonGroup",
+      "key": "4"
+    },
+    {
+      "paramKey": [
+        "startStoresNum",
+        "endStoresNum"
+      ],
+      "showFilterResult": false,
+      "title": "门店数",
+      "type": "range",
+      "addonBefore": [
+        "最小",
+        "最大"
+      ],
+      "addonAfter": "百万",
+      "key": "5"
+    },
+    {
+      "paramKey": [
+        "startSpeedUp",
+        "endSpeedUp"
+      ],
+      "showFilterResult": false,
+      "title": "同比增速",
+      "type": "range",
+      "addonBefore": [
+        "最小",
+        "最大"
+      ],
+      "addonAfter": "%",
+      "key": "6"
+    },
+
+  ]
+}

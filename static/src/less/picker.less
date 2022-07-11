@@ -1,0 +1,140 @@
+.ant-picker-range {
+  border-radius: 4px;
+  border: 1px solid #DCE1EF;
+  background: #FFFFFF;
+  height: 32px;
+
+  &:hover {
+    border: 1px solid #0678FF !important;
+    background: #FFFFFF;
+  }
+}
+
+.ant-picker-focused {
+  box-shadow: none;
+  border-radius: 4px;
+  border: 1px solid #0678FF;
+}
+
+.ant-picker-range .ant-picker-active-bar {
+  height: 3px;
+  background: #0678FF;
+}
+
+.ant-picker-panel-container {
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
+}
+
+.ant-picker-dropdown {
+  font-size: 12px;
+}
+
+.ant-picker-header {
+  border-bottom: 1px solid #F2F4F9;
+}
+
+.ant-picker-header button {
+  color: #595959;
+  font-size: 13px;
+
+  &:hover {
+    color: #0678FF;
+  }
+}
+
+.ant-picker-content th {
+  font-size: 12px;
+}
+
+
+.ant-picker-cell {
+  padding: 0;
+  font-size: 12px;
+}
+
+// week
+.ant-picker-week-panel-row {
+  .ant-picker-cell {
+    padding: 2px 0;
+  }
+}
+
+.ant-picker-week-panel-row {
+  >td:first-child {
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+  }
+
+  >td:last-child {
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+  }
+}
+
+.ant-picker-week-panel-row:hover td {
+  background: #F5FAFF;
+  // &::before {
+  //   background: #F5FAFF;
+  // }
+}
+
+.ant-picker-week-panel-row-selected td,
+.ant-picker-week-panel-row-selected:hover td {
+  background: #0678FF;
+
+  // &::before {
+  //   background: #0678FF;
+  // }
+}
+
+.ant-picker-month-panel {
+  .ant-picker-cell .ant-picker-cell-inner {
+    height: 24px;
+  }
+}
+
+.ant-picker-cell-in-view.ant-picker-cell-selected .ant-picker-cell-inner,
+.ant-picker-cell-in-view.ant-picker-cell-range-start .ant-picker-cell-inner,
+.ant-picker-cell-in-view.ant-picker-cell-range-end .ant-picker-cell-inner {
+  background: #0678FF;
+  border-radius: 4px;
+}
+
+.ant-picker-cell-in-view.ant-picker-cell-range-end:not(.ant-picker-cell-range-end-single):not(.ant-picker-cell-range-start) .ant-picker-cell-inner {
+  border-radius: 4px;
+}
+
+.ant-picker-cell-in-view.ant-picker-cell-range-start:not(.ant-picker-cell-range-start-single):not(.ant-picker-cell-range-end) .ant-picker-cell-inner {
+  border-radius: 4px;
+}
+
+.ant-picker-cell-in-view.ant-picker-cell-in-range::before {
+  background: #F5FAFF;
+}
+
+.ant-picker-cell-in-view.ant-picker-cell-range-start:not(.ant-picker-cell-range-start-single)::before,
+.ant-picker-cell-in-view.ant-picker-cell-range-end:not(.ant-picker-cell-range-end-single)::before {
+  background: #F5FAFF;
+}
+
+.ant-picker-cell-in-view.ant-picker-cell-in-range.ant-picker-cell-range-hover::before,
+.ant-picker-cell-in-view.ant-picker-cell-range-start.ant-picker-cell-range-hover::before,
+.ant-picker-cell-in-view.ant-picker-cell-range-end.ant-picker-cell-range-hover::before,
+.ant-picker-cell-in-view.ant-picker-cell-range-start:not(.ant-picker-cell-range-start-single).ant-picker-cell-range-hover-start::before,
+.ant-picker-cell-in-view.ant-picker-cell-range-end:not(.ant-picker-cell-range-end-single).ant-picker-cell-range-hover-end::before,
+.ant-picker-panel> :not(.ant-picker-date-panel) .ant-picker-cell-in-view.ant-picker-cell-in-range.ant-picker-cell-range-hover-start::before,
+.ant-picker-panel> :not(.ant-picker-date-panel) .ant-picker-cell-in-view.ant-picker-cell-in-range.ant-picker-cell-range-hover-end::before {
+  background: #E6F1FF;
+}
+
+.ant-picker-cell-disabled {
+  color: #CCCCCC
+}
+
+.ant-picker-cell-disabled::before {
+  background: transparent
+}
+
+.ant-picker-suffix {
+  color: #8C8C8C;
+}

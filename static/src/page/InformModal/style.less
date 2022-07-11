@@ -1,0 +1,77 @@
+.inform-modal {
+  .inform-modal-wrap {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 9999999;
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    border: 1px solid #E1E8F0;
+  }
+  &-header {
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 16px;
+    border-bottom: 1px solid #E1E8F0;
+    position: relative;
+    .inform-modal-title {
+      height: 100%;
+      font-weight: 500;
+      color: #262626;
+      font-size: 13px;
+    }
+    .inform-modal-close {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 40px;
+      height: 40px;
+      line-height: 40px;
+      text-align: center;
+      cursor: pointer;
+    }
+  }
+  &-body {
+    flex: 1;
+    padding: 12px 16px;
+  }
+  &-footer {
+    padding: 0 16px;
+    text-align: right;
+    margin-bottom: 12px;
+    >button {
+      height: 24px;
+      padding: 0 8px;
+      line-height: 24px;
+    }
+  }
+}
+
+
+.inform-content {
+  >header {
+    font-size: 12px;
+    font-weight: 500;
+    color: #262626;
+    line-height: 18px;
+  }
+  >section {
+    font-size: 12px;
+    font-weight: 400;
+    color: #595959;
+    line-height: 18px;
+    margin-top: 8px;
+  }
+  >footer {
+    font-size: 12px;
+    font-weight: 400;
+    color: #8C8C8C;
+    line-height: 18px;
+    margin-top: 8px;
+  }
+}

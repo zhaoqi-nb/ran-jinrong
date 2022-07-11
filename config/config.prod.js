@@ -1,0 +1,72 @@
+/*
+ * @FileDescription    : 文件描述  
+ * @Author             : lin.li@fengjr.com
+ * @Date               : 2018-05-15 14:50:11 
+ * @Last Modified by: lin.li@fengjr.com
+ * @Last Modified time: yyyy-10-We 10:42:45
+ */
+
+'use strict';
+const _ = require('lodash')
+
+module.exports = appInfo => {
+    const { API_URL, PERMISSIONS_URL, LOGIN_API_URL, PASSPORT_URL, CRM_URL } = process.env
+
+    const DEFAULT_API_DOMAIN = {
+        API_URL: "http://172.24.4.37:82/research-finance-backend",
+        PERMISSIONS_URL: "http://172.24.4.37:80/privilege/",
+        LOGIN_API_URL: "http://172.24.4.37:85",
+        PASSPORT_URL: "https://passport.databurning.com",
+        CRM_URL: "http://172.24.4.37:84",
+        CONTENT_MANAGE_URL: 'http://172.24.4.37:86'
+    }
+
+    const API_DOMAIN = _.merge(DEFAULT_API_DOMAIN, _.omitBy({
+        API_URL,
+        CRM_URL,
+        PASSPORT_URL,
+        LOGIN_API_URL,
+        PERMISSIONS_URL,
+    }, (value) => _.isNil(value)))
+
+    const config = {
+        //api path
+        API_DOMAIN: API_DOMAIN,
+        //redis cache config
+        redis: {
+            client: {
+                host: '172.24.4.4' //"r-8vb6y8kzb3s9kj51vo.redis.zhangbei.rds.aliyuncs.com",
+            },
+        },
+        cors: {
+            origin: ctx => ctx.get('origin'),
+            credentials: true,
+            allowMethods: 'GET,POST'
+        },
+        customLogger: {
+            scheduleLogger: {
+                file: process.env.NODE_SCHEDULELOGGER,
+            },
+        },
+        fixedData: {
+            //公司id
+            companyId: "13783",
+            //行业id
+            industryId: "13784",
+            //品牌
+            brandId: "13786",
+            //看板
+            boardId: "13785",
+            //数据源
+            dataSourceId: "13787",
+            //app分析
+            appId: "14258",
+        },
+        //日志配置
+        logger: {
+            dir: process.env.NODE_PROJECT_LOGPATH,
+        }
+    }
+
+    return config;
+}

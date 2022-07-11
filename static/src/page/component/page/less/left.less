@@ -1,0 +1,424 @@
+@import '~@less/base.less';
+
+.first_rightMenuBox {
+    .ant-menu-item-only-child {
+        &:hover {
+            background-color: #F0F7FF !important;
+        }
+    }
+
+    width: 150px;
+
+    .ant-layout-sider-children {
+        width: 150px;
+    }
+
+    .select_active {
+        color: #0678FF;
+        padding-left: 8px;
+    }
+
+    .ant-menu-item-selected .colors {
+        color: #0678FF;
+        font-weight: 500;
+    }
+
+    .ant-menu-dark .ant-menu-item>span>a {
+        color: #262626 !important;
+        font-size: 12px !important;
+    }
+
+
+    .rightMenuBox {
+        border-right: 1px solid #E1E8F0;
+        flex: 0 0 @menu-company-width;
+        height: 100%;
+        width: 150px;
+        // overflow: hidden;
+        background-color: #F5F7FA;
+
+        .header-board {
+            background-image: linear-gradient(#E6F1FF, #F5F7FA);
+            ;
+            padding: 8px 4px;
+            text-align: center;
+            height: 166px;
+            position: relative;
+
+            dl {
+                >dt>img {
+                    margin-top: 10px;
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 8px;
+                    border: 1px solid #ffffff;
+                }
+
+                .show-name {
+                    margin-top: 8px;
+                    height: 24px;
+                    font-size: 16px;
+                    font-family: 'PingFangSC-Medium, PingFang SC';
+                    font-weight: 500;
+                    color: #2B2B2B;
+                    line-height: 24px;
+                    text-align: center;
+                }
+
+                .show-code {
+                    height: 18px;
+                    font-size: 12px;
+                    font-family: 'PingFangSC-Regular, PingFang SC';
+                    font-weight: 400;
+                    color: #646464;
+                    line-height: 18px;
+                    text-align: center;
+                }
+            }
+
+            >p {
+                text-align: center;
+
+                >span {
+                    display: inline-block;
+                    border: 1px solid #ccc;
+                    width: 64px;
+                    height: 24px;
+                    text-align: center;
+                    margin: 0 4px;
+                    background: linear-gradient(270deg, #0697FF 0%, #0678FF 100%);
+                    border-radius: 4px;
+                    color: white;
+                    font-size: 12px;
+                    cursor: pointer;
+                }
+            }
+
+        }
+
+        .menuTitle {
+            font-size: 12px;
+            color: #595959;
+            height: 32px;
+        }
+
+        .ant-layout.ant-layout-has-sider {
+            height: 100%;
+        }
+
+        .ant-layout-sider.ant-layout-sider-dark {
+            flex: 0 0 168px ;
+            max-width: 168px ;
+            min-width: 168px ;
+            width: 168px ;
+        }
+
+        .ant-layout-sider.ant-layout-sider-dark {
+            background: #F5F7FA;
+        }
+
+        .ant-menu.ant-menu-root.ant-menu-inline.ant-menu-dark {
+            padding: 0 0px;
+            background: #F5F7FA;
+            margin-left: -8px;
+        }
+
+        .ant-menu-item.ant-menu-item-only-child {
+            height: 32px;
+            font-size: 13px;
+            font-family: PingFangSC-Regular, PingFang SC;
+            font-weight: 400;
+            color: #262626;
+            line-height: 32px;
+            padding-left: 24px !important;
+        }
+
+        .ant-menu-item-selected.ant-menu-item.ant-menu-item-only-child {
+            background: #E6F1FF;
+            color: #007AFF;
+            // height: 32px ;
+        }
+
+        .ant-menu-item .ant-menu-item-selected .ant-menu-item-only-child .ant-menu-title-content>span {
+            color: #0678FF;
+        }
+
+        .ant-menu-item-disabled.ant-menu-item.ant-menu-item-only-child {
+            color: rgba(166, 166, 166, 1);
+        }
+
+        .ant-layout.site-layout {
+            background: white;
+        }
+    }
+
+    .ant-radio-button-wrapper .ant-radio-button-wrapper-checked {
+        background: #E6F1FF;
+        color: #0678FF;
+    }
+
+}
+
+.select_menu {
+
+    // 优化选择
+    .ant-menu.ant-menu-root.ant-menu-inline.ant-menu-dark {
+        margin-left: 0px !important;
+        overflow: hidden;
+    }
+}
+
+.second_rightMenuBox {
+
+    // TODO hover颜色
+    .ant-menu-item a:hover {
+        color: rgba(0, 0, 0, 0.85) !important;
+    }
+
+    .ant-menu-item-only-child {
+        &:hover {
+
+            // background-color: #F0F7FF !important;
+            background-color: #E6F1FF !important;
+        }
+    }
+
+    .ant-menu-submenu-title {
+
+        .ant-menu-submenu-arrow::before,
+        .ant-menu-submenu-arrow::after {
+            background: #333333 !important;
+        }
+    }
+
+    .rightMenuBox {
+        border-right: 1px solid #E1E8F0;
+        flex: 0 0 @menu-company-width;
+        height: 100%;
+        width: 168px;
+        overflow: hidden auto;
+        background-color: #F5F7FA;
+
+        .select_active {
+
+            color: #0678FF;
+            padding-left: 8px;
+        }
+
+        .ant-menu li.ant-menu-submenu:first-child {
+            // margin-top: 8px !important;
+            // padding-left: 16px !important;
+        }
+
+        .ant-menu li {
+            // padding-left: 16px !important;
+        }
+
+        .ant-menu-submenu>.ant-menu-sub {
+            padding-bottom: 8px !important;
+        }
+
+        .ant-menu-sub li,
+        .ant-menu-sub li:first-child {
+            //    padding-left: 8px !important;
+        }
+
+        .ant-menu-inline.ant-menu-root .ant-menu-submenu-title {
+            padding-left: 8px !important;
+            background: #F5F7FA;
+            height: 32px !important;
+            line-height: 32px !important;
+        }
+
+        .ant-layout-sider-children {
+            width: 150px;
+        }
+
+        .ant-menu-item-selected .colors {
+            color: #007AFF;
+        }
+
+        .ant-menu-title-content .colors {
+            white-space: normal;
+        }
+
+        .ant-menu-item .ant-menu-item-disabled .ant-menu-item-only-child {
+            padding-left: 14px;
+        }
+
+        .ant-menu-dark .ant-menu-item>span>a {
+            color: #262626;
+        }
+
+        .header-industry {
+            background-image: linear-gradient(#E6F1FF, #F5F7FA);
+            ;
+            padding: 16px 4px;
+            text-align: center;
+            height: auto;
+            position: relative;
+
+            dl {
+                >dt>img {
+                    margin-top: 10px;
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 8px;
+                    border: 1px solid #ffffff;
+                }
+
+                .show-name {
+                    margin-top: 8px;
+                    height: auto;
+                    font-size: 16px;
+                    font-family: 'PingFangSC-Medium, PingFang SC';
+                    font-weight: 500;
+                    color: #2B2B2B;
+                    line-height: 24px;
+                    text-align: center;
+                }
+
+                .show-code {
+                    height: 18px;
+                    font-size: 12px;
+                    font-family: 'PingFangSC-Regular, PingFang SC';
+                    font-weight: 400;
+                    color: #646464;
+                    line-height: 18px;
+                    text-align: center;
+                }
+            }
+
+            >p {
+                text-align: center;
+                margin-bottom: 0px;
+
+                >span {
+                    display: inline-block;
+                    border: 1px solid #ccc;
+                    width: 64px;
+                    height: 24px;
+                    text-align: center;
+                    margin: 0 4px;
+                    background: linear-gradient(270deg, #0697FF 0%, #0678FF 100%);
+                    border-radius: 4px;
+                    color: white;
+                    cursor: pointer;
+                }
+            }
+
+        }
+
+        .ant-menu-item .ant-menu-item-disabled .ant-menu-item-only-child .disabledSelected {
+            padding-left: 16px !important;
+            cursor: text;
+        }
+
+        .menuTitle {
+            font-size: 12px;
+            color: #595959;
+            height: 32px;
+        }
+
+        .ant-layout.ant-layout-has-sider {
+            height: 100%;
+        }
+
+        // .ant-menu-item .ant-menu-item-only-child{
+        //     margin-left: 16px;
+        // }
+        .ant-layout-sider.ant-layout-sider-dark {
+            flex: 0 0 168px ;
+            max-width: 168px ;
+            min-width: 168px ;
+            width: 168px ;
+        }
+
+        .ant-layout-sider.ant-layout-sider-dark {
+            background: #F5F7FA;
+        }
+
+        .ant-menu.ant-menu-root.ant-menu-inline.ant-menu-dark {
+            padding: 0 0px;
+            background: #F5F7FA;
+        }
+
+        .ant-menu.ant-menu-root.ant-menu-inline.ant-menu-dark:hover {
+            color: #0678FF;
+        }
+
+        .ant-menu-item.ant-menu-item-only-child {
+            height: auto;
+            font-size: 13px;
+            font-family: PingFangSC-Regular, PingFang SC;
+            font-weight: 400;
+            color: #262626;
+            line-height: 20px;
+            padding-top: 6px;
+            padding-bottom: 6px;
+
+        }
+
+        .ant-menu-item-selected.ant-menu-item.ant-menu-item-only-child {
+            background: #E6F1FF;
+            color: #007AFF;
+            // height: 32px ;
+        }
+
+        .ant-menu-item-disabled.ant-menu-item.ant-menu-item-only-child {
+            color: rgba(166, 166, 166, 1);
+        }
+
+        .ant-layout.site-layout {
+            background: white;
+        }
+    }
+
+    .second_rightMenuBox .ant-menu-item .ant-menu-item-only-child {
+        padding-left: 26px !important;
+    }
+
+    .ant-menu-inline .ant-menu-submenu-title {
+        margin-top: 0px !important;
+        margin-bottom: 0px !important;
+        padding-right: 9px !important;
+    }
+
+    //    .ant-menu-inline.ant-menu-root .ant-menu-item > .ant-menu-title-content{
+    //        margin-left: -11px;
+    //    }
+
+}
+
+.ant-menu .ant-menu-root .ant-menu-inline .ant-menu-dark {
+    margin-left: -1px;
+    width: 100%;
+}
+
+.ant-menu-inline.ant-menu-root .ant-menu-submenu-title>.ant-menu-title-content {
+    padding-left: 0px;
+    font-weight: 400;
+    color: #c7c0c0;
+    font-size: 12px;
+}
+
+.ant-menu-dark .ant-menu-sub,
+.ant-menu.ant-menu-dark .ant-menu-sub {
+    background-color: #F5F7FA !important;
+}
+
+.ant-menu.ant-menu-dark .ant-menu-submenu-title .ant-menu-submenu-arrow::before {
+    background: #333333;
+}
+
+/* color: #262626; */
+
+.ant-menu-inline.ant-menu-root .ant-menu-submenu-title>.ant-menu-title-content {
+    width: 78px;
+    height: 32px;
+    font-size: 13px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #8C8C8C;
+    line-height: 32px;
+}

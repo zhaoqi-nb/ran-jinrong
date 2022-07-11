@@ -1,0 +1,81 @@
+2022-02-20 00:00:03,429 INFO 96389 [egg-logrotator] agent logger reload: got log-reload message
+2022-02-20 00:17:46,010 ERROR 96389 nodejs.ClusterClientNoResponseError: client no response in 198442ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 96389
+hostname: rs-front-01.local
+
+2022-02-20 00:28:17,011 ERROR 96389 nodejs.ClusterClientNoResponseError: client no response in 589320ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 96389
+hostname: rs-front-01.local
+
+2022-02-20 00:33:40,006 ERROR 96389 nodejs.ClusterClientNoResponseError: client no response in 281451ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 96389
+hostname: rs-front-01.local
+
+2022-02-20 00:41:21,010 ERROR 96389 nodejs.ClusterClientNoResponseError: client no response in 331210ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 96389
+hostname: rs-front-01.local
+
+2022-02-20 01:22:26,006 ERROR 96389 nodejs.ClusterClientNoResponseError: client no response in 2275989ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 96389
+hostname: rs-front-01.local
+
+2022-02-20 06:10:24,015 ERROR 96389 nodejs.ClusterClientNoResponseError: client no response in 17237418ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 96389
+hostname: rs-front-01.local
+
+2022-02-20 10:15:16,006 ERROR 96389 nodejs.ClusterClientNoResponseError: client no response in 14653404ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 96389
+hostname: rs-front-01.local
+
+2022-02-20 14:43:24,013 ERROR 96389 nodejs.ClusterClientNoResponseError: client no response in 16047704ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 96389
+hostname: rs-front-01.local
+
+2022-02-20 15:45:00,007 ERROR 96389 nodejs.ClusterClientNoResponseError: client no response in 3656017ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 96389
+hostname: rs-front-01.local
+
+2022-02-21 09:54:37,022 ERROR 96389 nodejs.ClusterClientNoResponseError: client no response in 61775718ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 96389
+hostname: rs-front-01.local
+

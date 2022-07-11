@@ -1,0 +1,124 @@
+2022-02-18 04:16:53,120 INFO 968 [egg-logrotator] app logger reload: got log-reload message
+2022-02-18 10:00:00,010 WARN 968 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-02-18 10:00:00,011 WARN 968 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-02-18 10:00:00,012 INFO 968 [-/127.0.0.1/-/0ms SCHEDULE /__schedule?path=/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&disable=false&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "/var/folders/1c/rlxxjm8j72b3d5bv108hct740000gn/T/egg-multipart-tmp/ranshu-finance-node"
+2022-02-18 10:00:00,023 INFO 968 [-/127.0.0.1/-/12ms SCHEDULE /__schedule?path=/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&disable=false&immediate=false] [egg-multipart:CleanTmpdir] end
+2022-02-18 10:51:22,006 WARN 968 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-02-18 10:51:22,007 WARN 968 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-02-18 11:38:51,542 INFO 65248 [egg:logger] init all loggers with options: {"dir":"/Users/rs-front-01/Documents/Projects/ranshu-finance-node/logs/","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ranshu-finance-node.log","coreLogName":"ranshu-finance-node-core.log","agentLogName":"ranshu-finance-node-agent.log","errorLogName":"ranshu-finance-node.err","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-02-18 11:38:51,626 INFO 65248 [egg-multipart] stream mode enable
+2022-02-18 11:38:51,674 INFO 65248 [egg-redis] server connecting redis://:***@172.19.228.122:6379/2
+2022-02-18 11:38:52,112 INFO 65248 [egg-static] starting static serve /public/ -> /Users/rs-front-01/Documents/Projects/ranshu-finance-node/app/public
+2022-02-18 11:38:52,118 INFO 65248 [egg-security] use methodnoallow middleware
+2022-02-18 11:38:52,119 INFO 65248 [egg-security] use noopen middleware
+2022-02-18 11:38:52,120 INFO 65248 [egg-security] use nosniff middleware
+2022-02-18 11:38:52,121 INFO 65248 [egg-security] use xssProtection middleware
+2022-02-18 11:38:52,122 INFO 65248 [egg-security] use xframe middleware
+2022-02-18 11:38:52,123 INFO 65248 [egg-security] use dta middleware
+2022-02-18 11:38:52,123 INFO 65248 [egg-security] compose 6 middlewares into one security middleware
+2022-02-18 11:38:52,158 INFO 65248 [egg:core] dump config after load, 5ms
+2022-02-18 11:38:52,175 INFO 65248 [egg-watcher:application] watcher start success
+2022-02-18 11:38:52,178 INFO 65248 [egg-redis] client connect success
+2022-02-18 11:38:52,193 INFO 65248 [egg-redis] instance[0] status OK, client ready
+2022-02-18 11:38:52,201 INFO 65248 [egg:core] dump config after ready, 6ms
+2022-02-18 11:47:43,614 INFO 66777 [egg:logger] init all loggers with options: {"dir":"/Users/rs-front-01/Documents/Projects/ranshu-finance-node/logs/","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ranshu-finance-node.log","coreLogName":"ranshu-finance-node-core.log","agentLogName":"ranshu-finance-node-agent.log","errorLogName":"ranshu-finance-node.err","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-02-18 11:47:43,684 INFO 66777 [egg-multipart] stream mode enable
+2022-02-18 11:47:43,737 INFO 66777 [egg-redis] server connecting redis://:***@172.19.228.122:6379/2
+2022-02-18 11:47:43,894 INFO 66777 [egg-static] starting static serve /public/ -> /Users/rs-front-01/Documents/Projects/ranshu-finance-node/app/public
+2022-02-18 11:47:43,898 INFO 66777 [egg-security] use methodnoallow middleware
+2022-02-18 11:47:43,899 INFO 66777 [egg-security] use noopen middleware
+2022-02-18 11:47:43,900 INFO 66777 [egg-security] use nosniff middleware
+2022-02-18 11:47:43,900 INFO 66777 [egg-security] use xssProtection middleware
+2022-02-18 11:47:43,901 INFO 66777 [egg-security] use xframe middleware
+2022-02-18 11:47:43,902 INFO 66777 [egg-security] use dta middleware
+2022-02-18 11:47:43,902 INFO 66777 [egg-security] compose 6 middlewares into one security middleware
+2022-02-18 11:47:43,957 INFO 66777 [egg:core] dump config after load, 8ms
+2022-02-18 11:47:43,993 INFO 66777 [egg-watcher:application] watcher start success
+2022-02-18 11:47:43,996 INFO 66777 [egg-redis] client connect success
+2022-02-18 11:47:44,038 INFO 66777 [egg-redis] instance[0] status OK, client ready
+2022-02-18 11:47:44,064 INFO 66777 [egg:core] dump config after ready, 20ms
+2022-02-18 11:48:35,149 INFO 66777 [egg-view-nunjucks] loading templates from ["/Users/rs-front-01/Documents/Projects/ranshu-finance-node/app/view"]
+2022-02-18 12:34:56,010 WARN 66777 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-02-18 12:34:56,011 WARN 66777 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-02-18 13:12:57,006 WARN 66777 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-02-18 13:12:57,006 WARN 66777 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-02-18 13:36:43,007 WARN 66777 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-02-18 13:36:43,007 WARN 66777 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-02-18 15:32:28,569 ERROR 66777 [egg-redis] client error: Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:220:20) {
+  errno: -54,
+  code: 'ECONNRESET',
+  syscall: 'read'
+}
+2022-02-18 15:32:28,570 ERROR 66777 nodejs.ECONNRESETError: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:220:20)
+errno: -54
+code: "ECONNRESET"
+syscall: "read"
+name: "ECONNRESETError"
+pid: 66777
+hostname: rs-front-01.local
+
+2022-02-18 15:32:28,635 INFO 66777 [egg-redis] client connect success
+2022-02-18 16:52:10,008 WARN 66777 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-02-18 16:52:10,013 WARN 66777 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-02-18 17:51:12,383 INFO 7054 [egg:logger] init all loggers with options: {"dir":"/Users/rs-front-01/Documents/Projects/ranshu-finance-node/logs/","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ranshu-finance-node.log","coreLogName":"ranshu-finance-node-core.log","agentLogName":"ranshu-finance-node-agent.log","errorLogName":"ranshu-finance-node.err","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-02-18 17:51:12,424 INFO 7054 [egg-multipart] stream mode enable
+2022-02-18 17:51:12,572 INFO 7054 [egg-redis] server connecting redis://:***@172.19.228.122:6379/2
+2022-02-18 17:51:12,997 INFO 7054 [egg-static] starting static serve /public/ -> /Users/rs-front-01/Documents/Projects/ranshu-finance-node/app/public
+2022-02-18 17:51:13,004 INFO 7054 [egg-security] use methodnoallow middleware
+2022-02-18 17:51:13,005 INFO 7054 [egg-security] use noopen middleware
+2022-02-18 17:51:13,006 INFO 7054 [egg-security] use nosniff middleware
+2022-02-18 17:51:13,008 INFO 7054 [egg-security] use xssProtection middleware
+2022-02-18 17:51:13,009 INFO 7054 [egg-security] use xframe middleware
+2022-02-18 17:51:13,012 INFO 7054 [egg-security] use dta middleware
+2022-02-18 17:51:13,013 INFO 7054 [egg-security] compose 6 middlewares into one security middleware
+2022-02-18 17:51:13,112 INFO 7054 [egg:core] dump config after load, 8ms
+2022-02-18 17:51:13,149 INFO 7054 [egg-redis] client connect success
+2022-02-18 17:51:13,151 INFO 7054 [egg-watcher:application] watcher start success
+2022-02-18 17:51:13,166 INFO 7054 [egg-redis] instance[0] status OK, client ready
+2022-02-18 17:51:13,175 INFO 7054 [egg:core] dump config after ready, 7ms
+2022-02-18 17:52:27,765 INFO 7054 [egg-view-nunjucks] loading templates from ["/Users/rs-front-01/Documents/Projects/ranshu-finance-node/app/view"]
+2022-02-18 19:17:02,386 INFO 19498 [egg:logger] init all loggers with options: {"dir":"/Users/rs-front-01/Documents/Projects/ranshu-finance-node/logs/","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ranshu-finance-node.log","coreLogName":"ranshu-finance-node-core.log","agentLogName":"ranshu-finance-node-agent.log","errorLogName":"ranshu-finance-node.err","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-02-18 19:17:02,490 INFO 19498 [egg-multipart] stream mode enable
+2022-02-18 19:17:02,580 INFO 19498 [egg-redis] server connecting redis://:***@172.19.228.122:6379/2
+2022-02-18 19:17:02,808 INFO 19498 [egg-static] starting static serve /public/ -> /Users/rs-front-01/Documents/Projects/ranshu-finance-node/app/public
+2022-02-18 19:17:02,812 INFO 19498 [egg-security] use methodnoallow middleware
+2022-02-18 19:17:02,812 INFO 19498 [egg-security] use noopen middleware
+2022-02-18 19:17:02,813 INFO 19498 [egg-security] use nosniff middleware
+2022-02-18 19:17:02,813 INFO 19498 [egg-security] use xssProtection middleware
+2022-02-18 19:17:02,814 INFO 19498 [egg-security] use xframe middleware
+2022-02-18 19:17:02,814 INFO 19498 [egg-security] use dta middleware
+2022-02-18 19:17:02,814 INFO 19498 [egg-security] compose 6 middlewares into one security middleware
+2022-02-18 19:17:02,859 INFO 19498 [egg:core] dump config after load, 9ms
+2022-02-18 19:17:02,889 INFO 19498 [egg-redis] client connect success
+2022-02-18 19:17:02,895 INFO 19498 [egg-watcher:application] watcher start success
+2022-02-18 19:17:02,902 INFO 19498 [egg-redis] instance[0] status OK, client ready
+2022-02-18 19:17:02,937 INFO 19498 [egg:core] dump config after ready, 32ms
+2022-02-18 19:17:27,649 INFO 19820 [egg:logger] init all loggers with options: {"dir":"/Users/rs-front-01/Documents/Projects/ranshu-finance-node/logs/","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ranshu-finance-node.log","coreLogName":"ranshu-finance-node-core.log","agentLogName":"ranshu-finance-node-agent.log","errorLogName":"ranshu-finance-node.err","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-02-18 19:17:27,686 INFO 19820 [egg-multipart] stream mode enable
+2022-02-18 19:17:27,772 INFO 19820 [egg-redis] server connecting redis://:***@172.19.228.122:6379/2
+2022-02-18 19:17:28,035 INFO 19820 [egg-static] starting static serve /public/ -> /Users/rs-front-01/Documents/Projects/ranshu-finance-node/app/public
+2022-02-18 19:17:28,039 INFO 19820 [egg-security] use methodnoallow middleware
+2022-02-18 19:17:28,041 INFO 19820 [egg-security] use noopen middleware
+2022-02-18 19:17:28,042 INFO 19820 [egg-security] use nosniff middleware
+2022-02-18 19:17:28,044 INFO 19820 [egg-security] use xssProtection middleware
+2022-02-18 19:17:28,046 INFO 19820 [egg-security] use xframe middleware
+2022-02-18 19:17:28,047 INFO 19820 [egg-security] use dta middleware
+2022-02-18 19:17:28,047 INFO 19820 [egg-security] compose 6 middlewares into one security middleware
+2022-02-18 19:17:28,107 INFO 19820 [egg:core] dump config after load, 6ms
+2022-02-18 19:17:28,125 INFO 19820 [egg-redis] client connect success
+2022-02-18 19:17:28,127 INFO 19820 [egg-watcher:application] watcher start success
+2022-02-18 19:17:28,139 INFO 19820 [egg-redis] instance[0] status OK, client ready
+2022-02-18 19:17:28,148 INFO 19820 [egg:core] dump config after ready, 6ms
+2022-02-18 19:28:59,877 WARN 19820 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-02-18 19:28:59,878 WARN 19820 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-02-18 19:31:30,306 INFO 19820 [egg-view-nunjucks] loading templates from ["/Users/rs-front-01/Documents/Projects/ranshu-finance-node/app/view"]
+2022-02-18 20:13:14,009 WARN 19820 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-02-18 21:09:31,008 WARN 19820 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-02-18 21:09:31,009 WARN 19820 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-02-19 02:13:28,011 WARN 19820 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-02-19 02:13:28,011 WARN 19820 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-02-19 02:13:28,115 INFO 19820 [egg-logrotator] clean all log before 10 days
+2022-02-19 02:13:28,147 INFO 19820 [egg-logrotator] broadcast log-reload
+2022-02-19 02:13:28,148 INFO 19820 [egg-logrotator] rotate files success by DayRotator, files ["/Users/rs-front-01/Documents/Projects/ranshu-finance-node/logs/ranshu-finance-node.err -> /Users/rs-front-01/Documents/Projects/ranshu-finance-node/logs/ranshu-finance-node.err.2022-02-18","/Users/rs-front-01/Documents/Projects/ranshu-finance-node/logs/ranshu-finance-node.log -> /Users/rs-front-01/Documents/Projects/ranshu-finance-node/logs/ranshu-finance-node.log.2022-02-18","/Users/rs-front-01/Documents/Projects/ranshu-finance-node/logs/ranshu-finance-node-core.log -> /Users/rs-front-01/Documents/Projects/ranshu-finance-node/logs/ranshu-finance-node-core.log.2022-02-18","/Users/rs-front-01/Documents/Projects/ranshu-finance-node/logs/egg-schedule.log -> /Users/rs-front-01/Documents/Projects/ranshu-finance-node/logs/egg-schedule.log.2022-02-18","/Users/rs-front-01/Documents/Projects/ranshu-finance-node/logs/ranshu-finance-node-agent.log -> /Users/rs-front-01/Documents/Projects/ranshu-finance-node/logs/ranshu-finance-node-agent.log.2022-02-18"]

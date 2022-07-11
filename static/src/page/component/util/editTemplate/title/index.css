@@ -1,0 +1,65 @@
+@charset "utf-8";
+
+.editTitleModal{
+    background: #f8f8f8;
+    padding: 10px;
+    margin: 0 -10px;
+}
+
+.editTitleModal .row_setTitle{
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.editTitleModal .row_setTitle .row_content{
+    margin:0 5px;
+    display: inline-block;
+}
+
+.editTitleModal .row_setTitle .row_del{
+    display: inline-block;
+    font-size: 20px;
+}
+
+.editTitleModal .row_order{
+    margin-right: 5px;
+    width: 14px;
+    position: relative;
+    height: 30px;
+}
+
+.editTitleModal .row_order .row_order_up{
+    position: absolute;
+    top: 3px;
+    font-size: 16px;
+    color: rgb(24, 144, 255);
+    display: inline-flex;
+    cursor: pointer;
+    height: 12px;
+    flex-direction: initial;
+}
+
+.editTitleModal .row_order .row_order_down{
+    position: absolute;
+    top: 15px;
+    font-size: 16px;
+    color: rgb(24, 144, 255);
+    display: inline-flex;
+    cursor: pointer;
+    height: 12px;
+    flex-direction: column-reverse;
+}
+
+.editTitleModal .row_order .row_order_up.disabled,
+.editTitleModal .row_order .row_order_down.disabled{
+    color:#ccc;
+    cursor: not-allowed;
+}
+
+.editTitleModal .titlePreview{
+    margin: 15px 0px;
+    font-size: 16px;
+    border: 1px dashed #ccc;
+    padding: 0 10px;
+    font-weight: 700;
+}

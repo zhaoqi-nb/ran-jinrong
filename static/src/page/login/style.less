@@ -1,0 +1,254 @@
+.login-page {
+  width: 100%;
+  height: 100%;
+
+  .header {
+    display: flex;
+    height: 56px;
+    padding: 0 24px;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    top: 0;
+
+    .logo {
+      height: 32px;
+      position: relative;
+
+      >a {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+
+      }
+
+      >a,
+      >img {
+        height: 100%;
+      }
+    }
+
+    .right {
+      display: flex;
+      align-items: center;
+
+      .trial {
+        padding: 4px 12px;
+        color: #FFFFFF;
+        font-weight: 400;
+        font-size: 12px;
+        background: linear-gradient(270deg, #0697FF 0%, #0678FF 100%);
+        box-shadow: 0px 2px 4px 0px rgba(6, 120, 255, 0.2);
+        border-radius: 4px;
+        margin-right: 32px;
+        cursor: pointer;
+      }
+
+      .language {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 56px;
+        height: 56px;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .login-bg {
+    width: auto;
+    height: 100%;
+  }
+
+
+  .login-wrapper,
+  .reset-wrapper {
+    flex: 1 1 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+
+    .tabs {
+      display: flex;
+      align-items: center;
+
+      &-item {
+        font-size: 20px;
+        line-height: 32px;
+        color: #8C8C8C;
+        padding: 0 12px;
+        position: relative;
+        cursor: pointer;
+
+        &[disabled] {
+          cursor: not-allowed;
+        }
+
+        &::after {
+          position: absolute;
+          width: 1px;
+          height: 16px;
+          background: #E1E8F0;
+          right: 0;
+          top: 0;
+          bottom: 0;
+          margin: auto;
+          content: '';
+        }
+
+        &.active {
+          color: #262626;
+          font-weight: 500;
+        }
+      }
+
+      &-item:last-child {
+        &::after {
+          display: none;
+        }
+      }
+    }
+
+    .ant-form-item-explain-error {
+      font-size: 12px;
+    }
+  }
+
+  .ant-btn {
+    height: 40px;
+    text-shadow: none;
+  }
+}
+
+.form-login-wrapper {
+  width: 320px;
+  margin-top: 32px;
+
+  .code-btn {
+    font-weight: 400;
+
+    &[disabled],
+    &[disabled]:hover {
+      color: #FFFFFF;
+      border-color: #BFBFBF;
+      background-color: #BFBFBF;
+    }
+  }
+
+  .reset-btn {
+    text-align: right;
+    font-size: 12px;
+    font-weight: 400;
+    color: #8C8C8C;
+    line-height: 24px;
+    cursor: pointer;
+  }
+}
+
+.wx-login-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 32px;
+
+  .tips {
+    font-size: 13px;
+    font-weight: 400;
+    color: #262626;
+    line-height: 24px;
+  }
+
+  .qr-code {
+    background: #FFFFFF;
+    border-radius: 8px;
+    border: 1px solid #E1E8F0;
+    padding: 8px;
+    margin-top: 16px;
+    position: relative;
+
+
+    .invalid-tip {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      background: rgba(0, 0, 0, 0.65);
+      border-radius: 8px;
+      z-index: 2;
+      cursor: pointer;
+    }
+
+    .invalid-tip {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-weight: 500;
+      color: #FFFFFF;
+      font-size: 13px;
+    }
+  }
+
+  .agreement {
+    font-size: 12px;
+    font-weight: 400;
+    color: #595959;
+    line-height: 20px;
+    margin-top: 16px;
+  }
+}
+
+.form-reset-wrapper {
+  width: 320px;
+  margin-top: 32px;
+
+  .back-btn {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    color: #8C8C8C;
+    line-height: 24px;
+    cursor: pointer;
+  }
+}
+
+
+
+.blue-text {
+  color: #0678FF;
+}
+
+
+@media screen and (max-width: 1050px) {
+  .login-bg {
+    display: none;
+  }
+}
+
+// .nc-container {
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   width: 100%;
+//   height: 100%;
+// }
+
+// .nc-container.tb-login #nc_1_wrapper {
+//   width: 100%;
+// }

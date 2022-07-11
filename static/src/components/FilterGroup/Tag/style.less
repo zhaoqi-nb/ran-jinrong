@@ -1,0 +1,29 @@
+.filter-tag {
+  display: inline-flex;
+  align-items: center;
+  background: #F5F7FA;
+  border-radius: 2px;
+  border: 1px solid #E1E8F0;
+  line-height: 18px;
+  margin-right: 12px;
+  padding: 2px 6px;
+  &-title {
+    font-weight: 400;
+    color: #313131;
+    &::after {
+      content: ':';
+      margin-right: 8px;
+    }
+  }
+
+  &-value {
+    font-weight: 500;
+    color: #277EFF;
+    margin-right: 8px;
+  }
+
+  &-close {
+    cursor: pointer;
+  }
+
+}

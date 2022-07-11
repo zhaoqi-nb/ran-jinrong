@@ -1,0 +1,6 @@
+echart定制包括
+1.bar
+2.line
+3.pie
+4.treemap
+5.radar

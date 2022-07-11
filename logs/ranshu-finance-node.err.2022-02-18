@@ -1,0 +1,129 @@
+2022-02-18 10:00:00,014 ERROR 965 nodejs.ClusterClientNoResponseError: client no response in 20547914ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 965
+hostname: rs-front-01.local
+
+2022-02-18 10:51:22,006 ERROR 965 nodejs.ClusterClientNoResponseError: client no response in 361841ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 965
+hostname: rs-front-01.local
+
+2022-02-18 11:08:57,737 ERROR 968 [-/127.0.0.1/-/20ms GET /api/commonTemplateBusinessApi//zb/getSelectedZbInfo?instantiationId=214&language=zh_CN] api 调用失败：url = /zb/getSelectedZbInfo, param = operatorId=24&instantiationId=214&language=zh_CN
+2022-02-18 11:08:57,738 ERROR 968 [-/127.0.0.1/-/22ms GET /api/commonTemplateBusinessApi//zb/getSelectedZbInfo?instantiationId=214&language=zh_CN] nodejs.TypeError: Cannot read properties of null (reading 'data')
+    at CommonController.getCommonTemplateBusinessApi (/Users/rs-front-01/Documents/Projects/ranshu-finance-node/app/controller/commonController.js:712:32)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async verifyLogin (/Users/rs-front-01/Documents/Projects/ranshu-finance-node/app/middleware/verifyApi.js:23:9)
+    at async recordLog (/Users/rs-front-01/Documents/Projects/ranshu-finance-node/app/middleware/recordLog.js:16:9)
+    at async /Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+
+pid: 968
+hostname: rs-front-01.local
+
+2022-02-18 12:34:56,007 ERROR 66770 nodejs.ClusterClientNoResponseError: client no response in 2331895ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 66770
+hostname: rs-front-01.local
+
+2022-02-18 13:12:57,004 ERROR 66770 nodejs.ClusterClientNoResponseError: client no response in 2240616ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 66770
+hostname: rs-front-01.local
+
+2022-02-18 13:36:43,006 ERROR 66770 nodejs.ClusterClientNoResponseError: client no response in 1386640ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 66770
+hostname: rs-front-01.local
+
+2022-02-18 15:32:26,529 ERROR 66770 [egg-redis] client error: Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:220:20) {
+  errno: -54,
+  code: 'ECONNRESET',
+  syscall: 'read'
+}
+2022-02-18 15:32:26,529 ERROR 66770 nodejs.ECONNRESETError: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:220:20)
+errno: -54
+code: "ECONNRESET"
+syscall: "read"
+name: "ECONNRESETError"
+pid: 66770
+hostname: rs-front-01.local
+
+2022-02-18 15:32:28,569 ERROR 66777 [egg-redis] client error: Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:220:20) {
+  errno: -54,
+  code: 'ECONNRESET',
+  syscall: 'read'
+}
+2022-02-18 15:32:28,570 ERROR 66777 nodejs.ECONNRESETError: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:220:20)
+errno: -54
+code: "ECONNRESET"
+syscall: "read"
+name: "ECONNRESETError"
+pid: 66777
+hostname: rs-front-01.local
+
+2022-02-18 16:52:10,006 ERROR 66770 nodejs.ClusterClientNoResponseError: client no response in 183501ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 66770
+hostname: rs-front-01.local
+
+2022-02-18 17:38:38,384 ERROR 66777 [-/127.0.0.1/-/32ms GET /page/config/12] -------------------------
+2022-02-18 17:38:38,385 ERROR 66777 [-/127.0.0.1/-/33ms GET /page/config/12] 异常报错 - 获取模版信息出错 --- TypeError: Cannot read properties of null (reading 'list')
+2022-02-18 17:38:38,385 ERROR 66777 [-/127.0.0.1/-/33ms GET /page/config/12] -------------------------
+2022-02-18 19:19:25,927 ERROR 19807 nodejs.ClusterClientNoResponseError: client no response in 63215ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 19807
+hostname: rs-front-01.local
+
+2022-02-18 20:13:14,006 ERROR 19807 nodejs.ClusterClientNoResponseError: client no response in 2128820ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 19807
+hostname: rs-front-01.local
+
+2022-02-18 21:09:31,006 ERROR 19807 nodejs.ClusterClientNoResponseError: client no response in 3337256ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 19807
+hostname: rs-front-01.local
+
+2022-02-19 02:13:28,015 ERROR 19807 nodejs.ClusterClientNoResponseError: client no response in 18196279ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 19807
+hostname: rs-front-01.local
+

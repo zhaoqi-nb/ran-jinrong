@@ -1,0 +1,68 @@
+.cascader-filter {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+  .form-item {
+    width: 100%;
+    .label {
+      color: #979797;
+      line-height: 18px;
+    }
+    .value {
+      display: flex;
+      align-items: center;
+    }
+  }
+  .filter-list {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: -8px;
+    .filter-item {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      font-size: 12px;
+      line-height: 18px;
+      padding: 2px 6px;
+      background: #F5F7FA;
+      border-radius: 2px;
+      border: 1px solid #E1E8F0;
+      margin-right: 8px;
+      margin-bottom: 8px;
+      &-title {
+        color: #373737;
+        &::after {
+          display: inline-block;
+          margin-right: 4px;
+          content: ':';
+        }
+      }
+      &-value {
+        color: #277EFF;
+        font-weight: 500;
+        margin: 0 6px;
+      }
+      &-close {
+        cursor: pointer;
+      }
+    }
+    
+    
+  }
+  .filter-oprator {
+    line-height: 18px;
+    >span:not(:last-child) {
+      margin-right: 8px;
+    }
+    .clear-btn {
+      color: #E2492F;
+      cursor: pointer;
+    }
+    .expand-btn {
+      color: #8c8c8c;
+      cursor: pointer;
+    }
+  }
+}

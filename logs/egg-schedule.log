@@ -1,0 +1,13 @@
+2022-02-23 09:54:38,129 DEBUG 43951 [Job#16455812780205020502592061541] /Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js finish event received by agent from worker#43974
+2022-02-23 11:43:36,848 INFO 87598 [egg-schedule]: register schedule /Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-02-23 11:43:36,848 INFO 87598 [egg-schedule]: register schedule /Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-02-23 11:43:36,849 INFO 87598 [egg-schedule]: register schedule /Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-02-23 11:43:38,301 INFO 87593 [Timer] /Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 60381702ms at 2022-02-24 04:30:00.003
+2022-02-23 11:43:38,302 INFO 87593 [Timer] /Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 44181699ms at 2022-02-24 00:00:00.001
+2022-02-23 11:43:38,303 INFO 87593 [Timer] /Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 44182698ms at 2022-02-24 00:00:01.001
+2022-02-24 10:36:01,139 INFO 75968 [egg-schedule]: register schedule /Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-02-24 10:36:01,139 INFO 75968 [egg-schedule]: register schedule /Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-02-24 10:36:01,139 INFO 75968 [egg-schedule]: register schedule /Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-02-24 10:36:01,503 INFO 75962 [Timer] /Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 64438500ms at 2022-02-25 04:30:00.003
+2022-02-24 10:36:01,503 INFO 75962 [Timer] /Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 48238497ms at 2022-02-25 00:00:00.000
+2022-02-24 10:36:01,504 INFO 75962 [Timer] /Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 48239497ms at 2022-02-25 00:00:01.001

@@ -1,0 +1,97 @@
+@import '~@less/color.less';
+@import '~@less/base.less';
+
+.dataSource-analysis-container {
+    padding: 16px 24px;
+    background: @black-5;
+    height: calc(100vh - @header-height - @bottom-explain-height);
+
+    .dataSource-wrapper {
+        padding: 16px 24px;
+        border: 1px solid @black-4;
+        border-radius: 8px;
+        margin-bottom: 16px;
+        background: linear-gradient(180deg, #FFFFFF 0%, #F5F7FA 100%);
+    }
+
+    .dataSource-header {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 16px;
+
+        .hearder-left {
+            display: flex;
+            align-items: center;
+        }
+
+        .dataSource-title {
+            font-weight: @font-weight-1;
+            color: #333333;
+            font-size: @font-size-base;
+            height: 18px;
+            line-height: 18px;
+            margin-bottom: 4px;
+        }
+
+        .dataSource-desc {
+            font-size: @font-size-2;
+            font-weight: @font-weight-base;
+            color: @black-2;
+            height: 18px;
+            line-height: 18px;
+            margin-bottom: 0;
+        }
+    }
+
+    .dataSource-content {
+        display: grid;
+        // grid-template-columns: auto auto auto auto;
+        grid-template-columns: repeat(auto-fill, minmax(224px, 1fr));
+        grid-gap: 16px;
+        .content-item {
+            width: 212px;
+            height: 72px;
+            background: @white-base;
+            box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+            position: relative;
+            border-radius: 8px;
+            padding-left: 12px;
+            display: flex;
+            align-items: center;
+
+            &.disabled {
+                opacity: 0.5;
+                cursor: not-allowed;
+            }
+
+
+            .content-flag {
+                display: inline-block;
+                position: absolute;
+                height: 18px;
+                min-width: 56px;
+                line-height: 18px;
+                border-radius: 2px;
+                font-weight: @font-weight-base;
+                color: @white-base;
+                font-size: @font-size-2;
+                top: -9px;
+                right: 8px;
+                padding: 0 4px;
+                background: linear-gradient(270deg, #0697FF 0%, #0678FF 100%);
+            }
+
+            .content-item-title {
+                margin-left: 12px;
+                height: 18px;
+                line-height: 18px;
+                color: #333333;
+                font-weight: @font-weight-1;
+                font-size: @font-size-base;
+            }
+        }
+    }
+
+}

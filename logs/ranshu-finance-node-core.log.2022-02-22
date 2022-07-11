@@ -1,0 +1,99 @@
+2022-02-22 09:59:12,328 INFO 95454 [egg-logrotator] app logger reload: got log-reload message
+2022-02-22 10:13:47,013 WARN 95454 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-02-22 10:49:30,025 WARN 95454 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-02-22 10:49:30,025 WARN 95454 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-02-22 13:53:56,950 INFO 24951 [egg:logger] init all loggers with options: {"dir":"/Users/rs-front-01/Documents/Projects/ranshu-finance-node/logs/","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ranshu-finance-node.log","coreLogName":"ranshu-finance-node-core.log","agentLogName":"ranshu-finance-node-agent.log","errorLogName":"ranshu-finance-node.err","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-02-22 13:53:57,103 INFO 24951 [egg-multipart] stream mode enable
+2022-02-22 13:53:57,467 INFO 24951 [egg-redis] server connecting redis://:***@172.19.228.122:6379/2
+2022-02-22 13:53:58,027 INFO 24951 [egg-static] starting static serve /public/ -> /Users/rs-front-01/Documents/Projects/ranshu-finance-node/app/public
+2022-02-22 13:53:58,035 INFO 24951 [egg-security] use methodnoallow middleware
+2022-02-22 13:53:58,036 INFO 24951 [egg-security] use noopen middleware
+2022-02-22 13:53:58,036 INFO 24951 [egg-security] use nosniff middleware
+2022-02-22 13:53:58,037 INFO 24951 [egg-security] use xssProtection middleware
+2022-02-22 13:53:58,038 INFO 24951 [egg-security] use xframe middleware
+2022-02-22 13:53:58,040 INFO 24951 [egg-security] use dta middleware
+2022-02-22 13:53:58,040 INFO 24951 [egg-security] compose 6 middlewares into one security middleware
+2022-02-22 13:53:58,231 INFO 24951 [egg:core] dump config after load, 8ms
+2022-02-22 13:53:58,249 INFO 24951 [egg-watcher:application] watcher start success
+2022-02-22 13:53:58,258 INFO 24951 [egg-redis] client connect success
+2022-02-22 13:53:58,305 INFO 24951 [egg-redis] instance[0] status OK, client ready
+2022-02-22 13:53:58,317 INFO 24951 [egg:core] dump config after ready, 8ms
+2022-02-22 13:59:50,947 INFO 24951 [egg-view-nunjucks] loading templates from ["/Users/rs-front-01/Documents/Projects/ranshu-finance-node/app/view"]
+2022-02-22 14:24:48,019 WARN 24951 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-02-22 14:24:48,019 WARN 24951 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-02-22 14:54:17,017 WARN 24951 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-02-22 14:54:17,017 WARN 24951 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-02-22 16:33:27,258 INFO 43974 [egg:logger] init all loggers with options: {"dir":"/Users/rs-front-01/Documents/Projects/ranshu-finance-node/logs/","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ranshu-finance-node.log","coreLogName":"ranshu-finance-node-core.log","agentLogName":"ranshu-finance-node-agent.log","errorLogName":"ranshu-finance-node.err","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-02-22 16:33:27,577 INFO 43974 [egg-multipart] stream mode enable
+2022-02-22 16:33:27,753 INFO 43974 [egg-redis] server connecting redis://:***@172.19.228.122:6379/2
+2022-02-22 16:33:28,300 INFO 43974 [egg-static] starting static serve /public/ -> /Users/rs-front-01/Documents/Projects/ranshu-finance-node/app/public
+2022-02-22 16:33:28,306 INFO 43974 [egg-security] use methodnoallow middleware
+2022-02-22 16:33:28,306 INFO 43974 [egg-security] use noopen middleware
+2022-02-22 16:33:28,307 INFO 43974 [egg-security] use nosniff middleware
+2022-02-22 16:33:28,307 INFO 43974 [egg-security] use xssProtection middleware
+2022-02-22 16:33:28,308 INFO 43974 [egg-security] use xframe middleware
+2022-02-22 16:33:28,447 INFO 43974 [egg-security] use dta middleware
+2022-02-22 16:33:28,447 INFO 43974 [egg-security] compose 6 middlewares into one security middleware
+2022-02-22 16:33:28,619 INFO 43974 [egg:core] dump config after load, 9ms
+2022-02-22 16:33:28,728 INFO 43974 [egg-redis] client connect success
+2022-02-22 16:33:28,749 INFO 43974 [egg-watcher:application] watcher start success
+2022-02-22 16:33:28,751 INFO 43974 [egg-redis] instance[0] status OK, client ready
+2022-02-22 16:33:28,885 INFO 43974 [egg:core] dump config after ready, 132ms
+2022-02-22 16:34:49,799 INFO 43974 [egg-view-nunjucks] loading templates from ["/Users/rs-front-01/Documents/Projects/ranshu-finance-node/app/view"]
+2022-02-22 19:15:58,014 WARN 43974 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-02-22 19:15:58,017 WARN 43974 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-02-22 20:00:55,006 WARN 43974 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-02-22 20:00:55,006 WARN 43974 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-02-22 20:04:37,009 WARN 43974 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-02-22 20:04:37,009 WARN 43974 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-02-22 20:08:36,010 WARN 43974 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-02-22 20:16:09,007 WARN 43974 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-02-22 20:16:09,008 WARN 43974 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-02-22 20:22:39,009 WARN 43974 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-02-22 20:22:39,009 WARN 43974 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-02-22 20:24:38,006 WARN 43974 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-02-22 20:24:38,006 WARN 43974 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-02-22 20:26:53,008 WARN 43974 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-02-22 20:26:53,015 WARN 43974 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-02-22 20:51:03,009 WARN 43974 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-02-22 20:51:03,009 WARN 43974 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-02-22 20:56:05,006 WARN 43974 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-02-22 20:56:05,006 WARN 43974 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-02-22 20:59:46,008 WARN 43974 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-02-22 20:59:46,008 WARN 43974 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-02-22 21:03:36,006 WARN 43974 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-02-22 21:03:36,006 WARN 43974 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-02-22 21:18:08,006 WARN 43974 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-02-22 21:18:08,006 WARN 43974 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-02-22 21:22:50,008 WARN 43974 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-02-22 21:22:50,008 WARN 43974 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-02-22 21:26:38,006 WARN 43974 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-02-22 21:26:38,006 WARN 43974 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-02-22 21:30:50,006 WARN 43974 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-02-22 21:30:50,006 WARN 43974 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-02-22 21:35:09,005 WARN 43974 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-02-22 21:35:09,006 WARN 43974 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-02-22 21:48:12,005 WARN 43974 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-02-22 21:48:12,006 WARN 43974 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-02-22 21:53:23,005 WARN 43974 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-02-22 21:56:23,006 WARN 43974 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-02-22 21:56:23,006 WARN 43974 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-02-22 22:02:43,006 WARN 43974 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-02-22 22:02:43,006 WARN 43974 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-02-22 22:07:55,008 WARN 43974 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-02-22 22:07:55,008 WARN 43974 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-02-22 22:11:25,005 WARN 43974 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-02-22 22:11:25,006 WARN 43974 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-02-22 22:14:44,005 WARN 43974 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-02-22 22:14:44,006 WARN 43974 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-02-22 22:18:45,005 WARN 43974 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-02-22 22:18:45,006 WARN 43974 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-02-22 22:21:57,005 WARN 43974 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-02-22 22:21:57,005 WARN 43974 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-02-23 09:54:38,013 WARN 43974 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-02-23 09:54:38,014 WARN 43974 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-02-23 09:54:38,028 INFO 43974 [-/127.0.0.1/-/1ms SCHEDULE /__schedule?path=/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&disable=false&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "/var/folders/1c/rlxxjm8j72b3d5bv108hct740000gn/T/egg-multipart-tmp/ranshu-finance-node"
+2022-02-23 09:54:38,113 INFO 43974 [egg-logrotator] clean all log before 10 days
+2022-02-23 09:54:38,121 INFO 43974 [-/127.0.0.1/-/94ms SCHEDULE /__schedule?path=/Users/rs-front-01/Documents/Projects/ranshu-finance-node/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&disable=false&immediate=false] [egg-multipart:CleanTmpdir] end
+2022-02-23 09:54:38,127 INFO 43974 [egg-logrotator] broadcast log-reload
+2022-02-23 09:54:38,127 INFO 43974 [egg-logrotator] rotate files success by DayRotator, files ["/Users/rs-front-01/Documents/Projects/ranshu-finance-node/logs/ranshu-finance-node.err -> /Users/rs-front-01/Documents/Projects/ranshu-finance-node/logs/ranshu-finance-node.err.2022-02-22","/Users/rs-front-01/Documents/Projects/ranshu-finance-node/logs/ranshu-finance-node.log -> /Users/rs-front-01/Documents/Projects/ranshu-finance-node/logs/ranshu-finance-node.log.2022-02-22","/Users/rs-front-01/Documents/Projects/ranshu-finance-node/logs/ranshu-finance-node-core.log -> /Users/rs-front-01/Documents/Projects/ranshu-finance-node/logs/ranshu-finance-node-core.log.2022-02-22","/Users/rs-front-01/Documents/Projects/ranshu-finance-node/logs/egg-schedule.log -> /Users/rs-front-01/Documents/Projects/ranshu-finance-node/logs/egg-schedule.log.2022-02-22","/Users/rs-front-01/Documents/Projects/ranshu-finance-node/logs/ranshu-finance-node-agent.log -> /Users/rs-front-01/Documents/Projects/ranshu-finance-node/logs/ranshu-finance-node-agent.log.2022-02-22"]

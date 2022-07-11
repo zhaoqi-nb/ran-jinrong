@@ -1,0 +1,96 @@
+.chart-legend {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  .list-wrapper {
+    flex: 1;
+    display: flex;
+    position: relative;
+    left: 0;
+    overflow: hidden;
+    .content {
+      display: inline-flex;
+      position: relative;
+      transition: all 0.3s ease;
+      .item {
+        display: flex;
+        align-items: center;
+        line-height: 20px;
+        cursor: pointer;
+        // &:not(last-child) {
+        //   margin-right: 16px;
+        // }
+           &:not(:first-child),
+           &:not(:last-child) {
+              padding-left: 8px;
+              padding-right: 8px;
+           }
+           &:first-child {
+             padding-right: 8px;
+           }
+           &:last-child {
+             padding-left: 8px;
+           }
+        .icon {
+          margin-right: 4px;
+          display: flex;
+          align-items: center;
+          >.anticon {
+            margin-top: 2px;
+          }
+
+        }
+        .label {
+          font-size: 12px;
+          color: #262626;
+          white-space: nowrap;
+        }
+      }
+      .item.selected {
+        .icon {
+            color: #E1E8F0 !important; 
+        }
+        .label  {
+          color: #BFBFBF !important;
+        }
+      }
+    } 
+    
+  }
+
+  .page-wrapper {
+   display: flex;
+   padding: 0 8px;
+    .pre {
+      transform: rotate(90deg);
+      cursor: pointer;
+    }
+    .next {
+      transform: rotate(-90deg);
+      cursor: pointer;
+    }
+
+    .count {
+      color: #595959;
+      font-size: 12;
+      font-weight: 400;
+      margin: 0 4px;
+    }
+    
+    .pre, 
+    .next {
+      .anticon {
+        color: #595959;
+        font-size: 12px;
+      }
+        &.disabled {
+          pointer-events: none;
+          .anticon {
+            color: #BFBFBF !important;
+          }
+        }
+     }
+  }
+}
